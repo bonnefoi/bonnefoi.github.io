@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>linux on Site pédagogique P-F. Bonnefoi</title>
+    <link>https://p-fb.net/tags/linux/</link>
+    <description>Recent content in linux on Site pédagogique P-F. Bonnefoi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <lastBuildDate>Mon, 06 Sep 2021 20:00:39 +0000</lastBuildDate><atom:link href="https://p-fb.net/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Liste d&#39;outils à utiliser</title>
+      <link>https://p-fb.net/blog/outils/</link>
+      <pubDate>Mon, 06 Sep 2021 20:00:39 +0000</pubDate>
+      
+      <guid>https://p-fb.net/blog/outils/</guid>
+      <description>Pour le réseau Communication    curl   echo -e &amp;#39;\x03\xF1&amp;#39; | curl -X POST --data-binary @- http://foo.com      socat   Pour l&amp;rsquo;envoi/réception en UDP et multicast:
+ Client:  sudo socat stdio udp-sendto:224.0.0.127:7182,interface=eth0  Serveur:  socat stdio udp-recvfrom:7182,ip-add-membership=224.0.0.127:eth0,fork      ssh -D   Un relais &amp;ldquo;socks&amp;rdquo; :
+ssh -D 1080 p-fb    Analyse de paquets   tcpdump   Les options les plus pratiques sont -lnvv:</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,197 @@
+[
+{
+	"uri": "https://p-fb.net/3IL/",
+	"title": "3IL",
+	"tags": [],
+	"description": "",
+	"content": "Harmonisation Développement Cours    Cours Python\n 1Mo\n     Fiches    3 il algo python tp 1 2020 2021.pdf\n \u0026lt;1Mo\n    3 il algo python tp 2 2020 2021.pdf\n \u0026lt;1Mo\n     "
+},
+{
+	"uri": "https://p-fb.net/IAE/",
+	"title": "IAE",
+	"tags": [],
+	"description": "",
+	"content": "   Audit Risques Informatiques \n Cryptographie, Réseaux, IGC/PKI,Risques \u0026amp; Méthodologie\n M2\n    Cultures Numériques \n Présentation de la blockchain et application à Bitcoin\n L3\n   "
+},
+{
+	"uri": "https://p-fb.net/INSA/",
+	"title": "INSA",
+	"tags": [],
+	"description": "",
+	"content": "Réseau non Filaire  Attention Vous trouverez des vidéos des cours et TDs dans la page vidéos\n  Support de cours    Insa MAC radio.pdf\n 95Mo\n    Handout insa MAC radio 2020 2021.pdf\n 95Mo\n    Insa os embarque.pdf\n 15Mo\n    Handout insa os embarque 2020 2021.pdf\n 15Mo\n     Fiches TDs/TPs    Insa io t 2020 2021.pdf\n \u0026lt;1Mo\n    Insa micropython.pdf\n \u0026lt;1Mo\n    Insa micropython 2.pdf\n \u0026lt;1Mo\n    Insa budget liaison 2020 2021.pdf\n \u0026lt;1Mo\n    Insa budget liaison corrections.pdf\n \u0026lt;1Mo\n     Annales    Insa rnf examen 2016 2017.pdf\n \u0026lt;1Mo\n    Insa rnf examen 2017 2018.pdf\n \u0026lt;1Mo\n    Insa rnf examen 2018 2019.pdf\n \u0026lt;1Mo\n     "
+},
+{
+	"uri": "https://p-fb.net/licence3/",
+	"title": "Licence 3",
+	"tags": [],
+	"description": "",
+	"content": "Premier semestre   ParalellismeI \n Programmation concurrente/Programmation asynchrone\n info\n   Second semestre  "
+},
+{
+	"uri": "https://p-fb.net/master1/",
+	"title": "Master 1",
+	"tags": [],
+	"description": "",
+	"content": "Premier semestre   Développement GPGPU \n Programmation Parallèle avec CUDA\n info\n    Protocoles et Programmation Réseaux \n Protocoles utilisateur/TCP/Prog. Réseau avec Python\n info\n    Réseau et Système \n Système Unix/Programmation Python et Réseaux\n math\n   "
+},
+{
+	"uri": "https://p-fb.net/master2/",
+	"title": "Master 2",
+	"tags": [],
+	"description": "",
+	"content": "Modules de Master 1ère année  "
+},
+{
+	"uri": "https://p-fb.net/",
+	"title": "",
+	"tags": [],
+	"description": "",
+	"content": " Site pédagogique de P-F. Bonnefoi à propos Bonne foi Logo ?   La récompense d\u0026rsquo;un enseignant est la réussite de ses étudiants.   Bienvenue sur mon site où vous trouverez mes supports de cours, TD et TP.\nL\u0026rsquo;adresse est p-fb.net, ce qui correspond uniquement à mes initiales.\nL\u0026rsquo;ancienne adresse était libpfb.so, c-à-d la bibliothèque partagée de P-F. B («.so», \u0026ldquo;shared object\u0026quot;).\nL\u0026rsquo;adresse originale du site était ishtar.msi.unilim.fr.\nDes statistiques \u0026ldquo;Google Analytics\u0026rdquo; d\u0026rsquo;accès au site sont disponibles sur cette page.\nL\u0026rsquo;adresse pour m\u0026rsquo;écrire est bonnefoi@unilim.fr\n linkedin/pfbonnefoi\n mastodon/@pefclic\n  Magritte   Une œuvre d\u0026rsquo;un artiste que j\u0026rsquo;apprécie beaucoup: La bonne foi (1964-1965)\n    Le logo est une création d\u0026rsquo;Andrew Cameron pour le Noun Project.\nIl évoque la sécurité avec le \u0026ldquo;black hat\u0026rdquo;, fait référence à Magritte, et en plus, correspond à ma signature :\nMrs. Peel, we\u0026rsquo;re needed\u0026hellip; The Avengers\n    "
+},
+{
+	"uri": "https://p-fb.net/blog/",
+	"title": "Blog",
+	"tags": [],
+	"description": "",
+	"content": "Vous trouverez des remarques et documentations en marge du contenu pédagogique du site.\nLes derniers billets  10/09/2021\n\u0026nbsp;Virtualbox, oui mais sans tête !\n\u0026nbsp;virtualisation\u0026nbsp;\u0026nbsp;réseau\u0026nbsp;\n 06/09/2021\n\u0026nbsp;Liste d\u0026#39;outils à utiliser\n\u0026nbsp;réseau\u0026nbsp;\u0026nbsp;linux\u0026nbsp;\n  "
+},
+{
+	"uri": "https://p-fb.net/tags/r%C3%A9seau/",
+	"title": "réseau",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://p-fb.net/tags/",
+	"title": "Tags",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://p-fb.net/blog/virtualbox_headless/",
+	"title": "Virtualbox, oui mais sans tête !",
+	"tags": ["virtualisation", "réseau"],
+	"description": "",
+	"content": "Il peut être intéressant d\u0026rsquo;avoir une machine sous Linux à portée de SSH toujours disponible et qui soit sans fenêtre, c-à-d tournant en mode headless.\nPar exemple, sous MacOS, on peut disposer des outils Linux sans être encombré d\u0026rsquo;une fenêtre associée à ce Linux.\nL\u0026rsquo;avantage est de faire tourner en tâche de fond une VM sans utiliser beaucoup de mémoire.\nIl y a deux parties distinctes à maitriser:\n lancer et arrêter la VM en mode ligne de commande; autoriser la connexion par SSH depuis l\u0026rsquo;hôte vers cette VM.  Pour connaître le nom de la VM:\nVBoxManage list vms Pour lancer la vm, ici appelée mavm:\nVBoxHeadless --startvm \u0026#34;mavm\u0026#34; Ensuite, on peut faire du Port Forwarding pour atteindre la VM depuis l\u0026rsquo;hôte:\nVBoxManage controlvm mavm natpf1 vers_ssh,tcp,,2224,,22 Enfin, si l\u0026rsquo;on désire éteindre proprement la VM:\nVBoxManage controlvm \u0026quot;mavm\u0026quot; acpipowerbutton Si on veut s\u0026rsquo;assurer l\u0026rsquo;accés à la VM est possible:\nVBoxManage showvminfo \u0026#34;mavm\u0026#34; NIC 1 Rule(0): name = vers_ssh, protocol = tcp, host ip = , host port = 2224, guest ip = , guest port = 22 Pour s\u0026rsquo;y connecter en SSH:\nssh -p 2224 localhost "
+},
+{
+	"uri": "https://p-fb.net/tags/virtualisation/",
+	"title": "virtualisation",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://p-fb.net/tags/linux/",
+	"title": "linux",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://p-fb.net/blog/outils/",
+	"title": "Liste d&#39;outils à utiliser",
+	"tags": ["réseau", "linux"],
+	"description": "",
+	"content": "Pour le réseau Communication    curl   echo -e \u0026#39;\\x03\\xF1\u0026#39; | curl -X POST --data-binary @- http://foo.com      socat   Pour l\u0026rsquo;envoi/réception en UDP et multicast:\n Client:  sudo socat stdio udp-sendto:224.0.0.127:7182,interface=eth0  Serveur:  socat stdio udp-recvfrom:7182,ip-add-membership=224.0.0.127:eth0,fork      ssh -D   Un relais \u0026ldquo;socks\u0026rdquo; :\nssh -D 1080 p-fb    Analyse de paquets   tcpdump   Les options les plus pratiques sont -lnvv:\nsudo tcpdump -lnvv -i eth0 On peut également ajouter les options :\n A pour afficher le contenu du paquet en ASCII X pour afficher le contenu en heXadécimal e pour afficher les adresses MAC      tshark   tshark permet de traiter des paquets à la manière de tcpdump mais il est capable d\u0026rsquo;analyser un nombre incroyable de format et surtout de pouvoir isoler et formater les différents champs de ces formats:\nsudo tshark -i wlx48ee0c232796 -f \u0026#34;udp and port 53\u0026#34; -T fields -e dns.qry.name tshark est la version ligne de commande de Wireshark, mais sans intreface\n    termshark   Une version terminal de Wireshark avec une interface en ncurses.\n  Pour la manipulation de données   xxd   Passer de l\u0026rsquo;hexa au binaire avec les options -r -p puis du binaire vers l\u0026rsquo;hexa pour du chiffrement AES:\nopenssl enc -aes-256-ecb -K \u0026#34;0000000000000000000000000000000000000000000000000000000000000000\u0026#34; -nopad -in \u0026lt;(echo -n \u0026#34;00000000000000000000000000000000\u0026#34; | xxd -r -p) | xxd    Pour la programmation  vim git  Pour le shell  tmux fzf fdfind ripgrep nnn  "
+},
+{
+	"uri": "https://p-fb.net/master1/admin_reseaux/",
+	"title": "Administration Réseaux",
+	"tags": [],
+	"description": "",
+	"content": " Vous trouverez l\u0026rsquo;ensemble des ressources\n ## Support de cours{.monbloc .green}    Cours res sys reseau.pdf\n 7Mo\n    Cours res sys unix.pdf\n 10Mo\n     ## Annales{.monbloc .blue}    Sys res janvier 2021.pdf\n 3Mo\n    Sys res janvier 2021 anglais.pdf\n 3Mo\n    Sys res janvier 2020.pdf\n 3Mo\n    Sys res janvier 2020 anglais.pdf\n 3Mo\n     "
+},
+{
+	"uri": "https://p-fb.net/master1/gpgpu/",
+	"title": "Développement GPGPU",
+	"tags": [],
+	"description": "",
+	"content": "Support de cours    Cuda.Pdf\n 5Mo\n    Dev gpgpu.pdf\n 39Mo\n     Fiches de TDs    Gpgpu td 1 2021 2022.pdf\n 3Mo\n     Annales    Gpgpu 2020.pdf\n 3Mo\n    Gpgpu 2020 anglais.pdf\n 3Mo\n    Gpgpu 2019.pdf\n 3Mo\n    Gpgpu 2019 anglais.pdf\n 3Mo\n     "
+},
+{
+	"uri": "https://p-fb.net/master1/proto_prog/",
+	"title": "Protocoles et Programmation Réseaux",
+	"tags": [],
+	"description": "",
+	"content": "Support de cours    Cours python.pdf\n 5Mo\n    Cours ppres.pdf\n 7Mo\n     Fiches de TDs    Prot prog res td 1 2021 2022.pdf\n 3Mo\n     "
+},
+{
+	"uri": "https://p-fb.net/master1/res_sys/",
+	"title": "Réseau et Système",
+	"tags": [],
+	"description": "",
+	"content": "  Attention Vous trouverez le source des programmes de TD sur :\nReSys_2021_2022 · GitLab\n  Support de cours    Cours python.pdf\n 5Mo\n    Cours res sys reseau.pdf\n 7Mo\n    Cours res sys unix.pdf\n 32Mo\n     Fiches de TDs    Sys res td 1 2021 2022.pdf\n 3Mo\n     Annales    Sys res janvier 2021.pdf\n 3Mo\n    Sys res janvier 2021 anglais.pdf\n 3Mo\n    Sys res janvier 2020.pdf\n 3Mo\n    Sys res janvier 2020 anglais.pdf\n 3Mo\n     "
+},
+{
+	"uri": "https://p-fb.net/licence3/compilation2/",
+	"title": "CompilationII",
+	"tags": [],
+	"description": "",
+	"content": " ## Cours{.monbloc .green}    Cours compilation2.pdf\n 5Mo\n    Handout compilation2 2020 2021.pdf\n 6Mo\n     ## Fiches de TDs{.monbloc .orange}    Compilation 2 td 1 2020 2021.pdf\n 3Mo\n    Compilation 2 td 2 2020 2021.pdf\n 3Mo\n    Compilation 2 td 3 2020 2021.pdf\n 3Mo\n      ## Fiches de TPs{.monbloc .red}    Compilation 2 tp 1 2020 2021.pdf\n 3Mo\n    Compilation 2 tp 2 2020 2021.pdf\n 3Mo\n     ## Annales{.monbloc .blue}    Compilation 2 mai 2021.pdf\n 3Mo\n    Compilation 2 mai 2019.pdf\n 3Mo\n    Compilation 2 mai 2018.pdf\n 3Mo\n     "
+},
+{
+	"uri": "https://p-fb.net/licence3/parallelisme1/",
+	"title": "ParalellismeI",
+	"tags": [],
+	"description": "",
+	"content": "  Attention Vous trouverez des vidéos des cours et TDs dans la page vidéos\n  Cours    Cours parallelisme i.pdf\n 13Mo\n     Annales    Parallelisme i decembre 2020.pdf\n 3Mo\n    Parallelisme i decembre 2019.pdf\n 3Mo\n    Parallelisme i decembre 2018.pdf\n 3Mo\n     "
+},
+{
+	"uri": "https://p-fb.net/IAE/MCCA2/",
+	"title": "Audit Risques Informatiques",
+	"tags": [],
+	"description": "",
+	"content": "Support de cours    Cours MC ca intro.pdf\n \u0026lt;1Mo\n    Cours mcca reseaux.pdf\n 2Mo\n    Cours crypto mcca.pdf\n 3Mo\n    Methodologie securite.pdf\n 3Mo\n      Liens pour tester le chiffrement de César et la Scytale spartiate  www.apprendre-en-ligne.net/crypto/transpo/scytale.html www.apprendre-en-ligne.net/crypto/cesar/index.html www.apprendre-en-ligne.net/crypto/cesar/decrypt.html www.cryptool-online.org/index.php    Annales    Audit risques informatiques decembre 2019.pdf\n \u0026lt;1Mo\n    Audit risques informatiques decembre 2018.pdf\n \u0026lt;1Mo\n    Audit risques informatiques decembre 2017.pdf\n \u0026lt;1Mo\n     "
+},
+{
+	"uri": "https://p-fb.net/categories/",
+	"title": "Categories",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://p-fb.net/IAE/L3gestion/",
+	"title": "Cultures Numériques",
+	"tags": [],
+	"description": "",
+	"content": "Blockchain Cours    Blockchain.Pdf\n 5Mo\n      Liens  https://blockchainfrance.net https://www.bitaddress.org/ https://bitcoinfees.earn.com https://coincap.io/assets/bitcoin https://www.blockchain.com/explorer https://insight.bitpay.com    Intro Blockchain Rappels Crypto Blockchain Bitcoin Transactions Bitcoin  Votre navigateur ne permet pas l'intégration de vidéos, mais ce n'est pas grave ; vous pouvez la télécharger et la voir dans votre lecteur vidéo préféré !    Votre navigateur ne permet pas l'intégration de vidéos, mais ce n'est pas grave ; vous pouvez la télécharger et la voir dans votre lecteur vidéo préféré !    Votre navigateur ne permet pas l'intégration de vidéos, mais ce n'est pas grave ; vous pouvez la télécharger et la voir dans votre lecteur vidéo préféré !    Votre navigateur ne permet pas l'intégration de vidéos, mais ce n'est pas grave ; vous pouvez la télécharger et la voir dans votre lecteur vidéo préféré !    Votre navigateur ne permet pas l'intégration de vidéos, mais ce n'est pas grave ; vous pouvez la télécharger et la voir dans votre lecteur vidéo préféré !      "
+},
+{
+	"uri": "https://p-fb.net/GSM/",
+	"title": "GSM démo",
+	"tags": [],
+	"description": "",
+	"content": "Dans cette vidéo est présentée l\u0026rsquo;envoi d\u0026rsquo;un SMS depuis une identité quelconque vers le téléphone de la victime: Votre navigateur ne permet pas l'intégration de vidéos, mais ce n'est pas grave ; vous pouvez la télécharger et la voir dans votre lecteur vidéo préféré ! \n une fausse borne GSM est créée à l\u0026rsquo;aide d\u0026rsquo;une SDR, \u0026ldquo;Software Define Radio\u0026rdquo;, capable de :  communiquer avec le téléphone de la victime ; prendre en charge des communications vocales et la transmission de SMS pour les téléphones associés à elle ;   le téléphone de la victime est ensuite poussé vers la fausse borne GSM :  ses communications vers la borne GSM officielle sont brouillées ; la fausse borne GSM devient la seule borne GSM disponible ;   la fausse borne GSM prend en charge le téléphone de la victime :  il est autorisé à s\u0026rsquo;intégrer au réseau de communication de la fausse borne ; il obtient un identifiant sur ce réseau ;   l\u0026rsquo;attaquant envoi vers le téléphone de la victime un SMS dont il peut librement choisir l\u0026rsquo;identité de l\u0026rsquo;expéditeur (n\u0026rsquo;importe quel numéro télephonique peut être utilisé) :  le SMS envoyé par l\u0026rsquo;attaquant est enregistré dans le téléphone de la victime ;   une fois l\u0026rsquo;envoi du SMS réalisé la fausse borne peut disparaitre ainsi que le brouillage des communications :  le téléphone de la victime va rejoindre la borne GSM officielle de son opérateur ; la victime ne s\u0026rsquo;est rendu compte de rien et va considérer le SMS de l\u0026rsquo;attaquant comme légitime.    "
+},
+{
+	"uri": "https://p-fb.net/tmc/",
+	"title": "Master 2/TMC",
+	"tags": [],
+	"description": "",
+	"content": "   Dans cette UE :   On parle de :\n matériel embarqué avec la programmation de modules; communication radio avec du LoRa; de sécurité matériel et des protocoles;    Support de cours    Iot tmc.pdf\n 19Mo\n    Iot radio.pdf\n 99Mo\n    Iot security.pdf\n 1Mo\n     Bilan de liaison  Votre navigateur ne permet pas l'intégration de vidéos, mais ce n'est pas grave ; vous pouvez la télécharger et la voir dans votre lecteur vidéo préféré !      Annales    Tmc examen 2020 2021.pdf\n 3Mo\n    Tmc examen 2019 2020.pdf\n 4Mo\n    Tmc examen 2018 2019\n 4Mo\n     "
+},
+{
+	"uri": "https://p-fb.net/photos/",
+	"title": "Photos",
+	"tags": [],
+	"description": "",
+	"content": "                               Image001\n      Image002\n      Image003\n      Image004\n      Image005\n      Image006\n      Image007\n      Image008\n      Image009\n      Image010\n      Image011\n      Image012\n      Image013\n      Image014\n      Image015\n      Image016\n      Image017\n      Image018\n      Image019\n      Image020\n      Image021\n      Image022\n      Image023\n      Image024\n      Image025\n      Image026\n      Image027\n      Image028\n      Image029\n      Image030\n      Image031\n      Image032\n      Image033\n      Image034\n      Image035\n      Image036\n      Image037\n      Image038\n      Image039\n      Image040\n      Image041\n      Image042\n      Image043\n      Image044\n      Image045\n      Image046\n      Image047\n      Image048\n      Image049\n      Image050\n      Image051\n      Image052\n      Image053\n      Image054\n      Image055\n      Image056\n      Image057\n      Image058\n      Image059\n      Image060\n      Image061\n      Image062\n      Image063\n      Image064\n      Image065\n      Image066\n      Image067\n      Image068\n      Image069\n      Image070\n      Image071\n      Image072\n      Image073\n      Image074\n      Image075\n      Image076\n      Image077\n     "
+},
+{
+	"uri": "https://p-fb.net/INSA/videos/",
+	"title": "vidéos",
+	"tags": [],
+	"description": "",
+	"content": "Cours OS Embarqué -\u0026gt;p.17 -\u0026gt;p.33 -\u0026gt;fin  Votre navigateur ne permet pas l'intégration de vidéos, mais ce n'est pas grave ; vous pouvez la télécharger et la voir dans votre lecteur vidéo préféré !    Votre navigateur ne permet pas l'intégration de vidéos, mais ce n'est pas grave ; vous pouvez la télécharger et la voir dans votre lecteur vidéo préféré !    Votre navigateur ne permet pas l'intégration de vidéos, mais ce n'est pas grave ; vous pouvez la télécharger et la voir dans votre lecteur vidéo préféré !      Cours RnF -\u0026gt;p.48 -\u0026gt;fin  Votre navigateur ne permet pas l'intégration de vidéos, mais ce n'est pas grave ; vous pouvez la télécharger et la voir dans votre lecteur vidéo préféré !    Votre navigateur ne permet pas l'intégration de vidéos, mais ce n'est pas grave ; vous pouvez la télécharger et la voir dans votre lecteur vidéo préféré !      TDs TD nº1 TD nº2 TD nº3 TD nº4 TD nº5 TD nº6  Votre navigateur ne permet pas l'intégration de vidéos, mais ce n'est pas grave ; vous pouvez la télécharger et la voir dans votre lecteur vidéo préféré !    Votre navigateur ne permet pas l'intégration de vidéos, mais ce n'est pas grave ; vous pouvez la télécharger et la voir dans votre lecteur vidéo préféré !    Votre navigateur ne permet pas l'intégration de vidéos, mais ce n'est pas grave ; vous pouvez la télécharger et la voir dans votre lecteur vidéo préféré !    Votre navigateur ne permet pas l'intégration de vidéos, mais ce n'est pas grave ; vous pouvez la télécharger et la voir dans votre lecteur vidéo préféré !    Votre navigateur ne permet pas l'intégration de vidéos, mais ce n'est pas grave ; vous pouvez la télécharger et la voir dans votre lecteur vidéo préféré !    Votre navigateur ne permet pas l'intégration de vidéos, mais ce n'est pas grave ; vous pouvez la télécharger et la voir dans votre lecteur vidéo préféré !      "
+},
+{
+	"uri": "https://p-fb.net/licence3/parallelisme1/videos/",
+	"title": "vidéos",
+	"tags": [],
+	"description": "",
+	"content": " -\u0026gt; p.120 -\u0026gt; fin  Votre navigateur ne permet pas l'intégration de vidéos, mais ce n'est pas grave ; vous pouvez la télécharger et la voir dans votre lecteur vidéo préféré !    Votre navigateur ne permet pas l'intégration de vidéos, mais ce n'est pas grave ; vous pouvez la télécharger et la voir dans votre lecteur vidéo préféré !      "
+}]

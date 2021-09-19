@@ -1,0 +1,21 @@
+.tag-list ul {
+  list-style: none;
+    padding: 0;
+}
+
+.tag-list li {
+  padding-left: 1.3em;
+}
+.tag-list li li {
+  padding-left: 2.3em;
+}
+
+/*
+.tag-list li:before {
+  content: "\f02b"; /* FontAwesome Unicode */
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: -1.3em; /* same as padding-left set on li */
+  width: 1.3em; /* same as padding-left set on li */
+}
+*/

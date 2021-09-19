@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Licence 3 on Site pédagogique P-F. Bonnefoi</title>
+    <link>https://p-fb.net/licence3/</link>
+    <description>Recent content in Licence 3 on Site pédagogique P-F. Bonnefoi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <lastBuildDate>Wed, 18 Aug 2021 22:42:00 +0200</lastBuildDate><atom:link href="https://p-fb.net/licence3/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CompilationII</title>
+      <link>https://p-fb.net/licence3/compilation2/</link>
+      <pubDate>Wed, 18 Aug 2021 22:42:00 +0200</pubDate>
+      
+      <guid>https://p-fb.net/licence3/compilation2/</guid>
+      <description>Utilisation de Lex &amp;amp; Yacc/Utilisation d&amp;rsquo;XML</description>
+    </item>
+    
+  </channel>
+</rss>

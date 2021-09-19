@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/pefclic
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://p-fb.net
+  * I am pefclic (https://keybase.io/pefclic) on keybase.
+  * I have a public key ASDA5jiU1tFcDZnLJS2dbv3aRPHd7wbw7axETaoeX5Ef9go
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120c0e63894d6d15c0d99cb252d9d6efdda44f1ddef06f0edac444daa1e5f911ff60a",
+      "host": "keybase.io",
+      "kid": "0120c0e63894d6d15c0d99cb252d9d6efdda44f1ddef06f0edac444daa1e5f911ff60a",
+      "uid": "5d45b82421e7cee534042402d21ea819",
+      "username": "pefclic"
+    },
+    "merkle_root": {
+      "ctime": 1620476256,
+      "hash": "c531c30b9f5ebdc1436a101d805324e3acfb823da26847c60e7681d5371ca95ef80dffef21b03b290bc48b21f315c14ad41e74599065af249f18a0fbf20ada33",
+      "hash_meta": "fee4ae3959e41019318be56059dc7689770e6ec0053fdd49afc465a6927d1ff8",
+      "seqno": 19875432
+    },
+    "service": {
+      "entropy": "tfYB8AEfTDv33SWtbplq6Eqo",
+      "hostname": "p-fb.net",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.6.2"
+  },
+  "ctime": 1620476308,
+  "expire_in": 504576000,
+  "prev": "22cfcf728c459d2104b01d7e809609db006e6fd383222927808da09ec46fdf1c",
+  "seqno": 5,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgwOY4lNbRXA2ZyyUtnW792kTx3e8G8O2sRE2qHl+RH/YKp3BheWxvYWTESpcCBcQgIs/PcoxFnSEEsB1+gJYJ2wBub9ODIikngI2gnsRv3xzEIHMfrMohPyd4rEz2+HfG/JYeW9xXlmd/O7HUTSxI7BOFAgHCo3NpZ8RA6LS06mOuoHvASlFf3kiCTHQJVyK8vYCxWAAeJArhS0y8MQTwV4cStS576a2bVJckPJstN58KqEF9/N3G3EfBCKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEILdW0OWwwkOfHFoo0WKze3Ym47XDgZ8334BMLI8zmd+Xo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/pefclic
+
+==================================================================

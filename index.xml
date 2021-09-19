@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Site pédagogique P-F. Bonnefoi</title>
+    <link>https://p-fb.net/</link>
+    <description>Recent content on Site pédagogique P-F. Bonnefoi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <lastBuildDate>Fri, 10 Sep 2021 21:04:20 +0000</lastBuildDate><atom:link href="https://p-fb.net/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Virtualbox, oui mais sans tête !</title>
+      <link>https://p-fb.net/blog/virtualbox_headless/</link>
+      <pubDate>Fri, 10 Sep 2021 21:04:20 +0000</pubDate>
+      
+      <guid>https://p-fb.net/blog/virtualbox_headless/</guid>
+      <description>Il peut être intéressant d&amp;rsquo;avoir une machine sous Linux à portée de SSH toujours disponible et qui soit sans fenêtre, c-à-d tournant en mode headless.
+Par exemple, sous MacOS, on peut disposer des outils Linux sans être encombré d&amp;rsquo;une fenêtre associée à ce Linux.
+L&amp;rsquo;avantage est de faire tourner en tâche de fond une VM sans utiliser beaucoup de mémoire.
+Il y a deux parties distinctes à maitriser:
+ lancer et arrêter la VM en mode ligne de commande; autoriser la connexion par SSH depuis l&amp;rsquo;hôte vers cette VM.</description>
+    </item>
+    
+    <item>
+      <title>Liste d&#39;outils à utiliser</title>
+      <link>https://p-fb.net/blog/outils/</link>
+      <pubDate>Mon, 06 Sep 2021 20:00:39 +0000</pubDate>
+      
+      <guid>https://p-fb.net/blog/outils/</guid>
+      <description>Pour le réseau Communication    curl   echo -e &amp;#39;\x03\xF1&amp;#39; | curl -X POST --data-binary @- http://foo.com      socat   Pour l&amp;rsquo;envoi/réception en UDP et multicast:
+ Client:  sudo socat stdio udp-sendto:224.0.0.127:7182,interface=eth0  Serveur:  socat stdio udp-recvfrom:7182,ip-add-membership=224.0.0.127:eth0,fork      ssh -D   Un relais &amp;ldquo;socks&amp;rdquo; :
+ssh -D 1080 p-fb    Analyse de paquets   tcpdump   Les options les plus pratiques sont -lnvv:</description>
+    </item>
+    
+    <item>
+      <title>Administration Réseaux</title>
+      <link>https://p-fb.net/master1/admin_reseaux/</link>
+      <pubDate>Sun, 22 Aug 2021 23:52:12 +0000</pubDate>
+      
+      <guid>https://p-fb.net/master1/admin_reseaux/</guid>
+      <description>Vous trouverez l&amp;rsquo;ensemble des ressources
+ ## Support de cours{.monbloc .green}    Cours res sys reseau.pdf
+ 7Mo
+    Cours res sys unix.pdf
+ 10Mo
+     ## Annales{.monbloc .blue}    Sys res janvier 2021.pdf
+ 3Mo
+    Sys res janvier 2021 anglais.pdf
+ 3Mo
+    Sys res janvier 2020.pdf
+ 3Mo
+    Sys res janvier 2020 anglais.</description>
+    </item>
+    
+    <item>
+      <title>Développement GPGPU</title>
+      <link>https://p-fb.net/master1/gpgpu/</link>
+      <pubDate>Sun, 22 Aug 2021 23:52:12 +0000</pubDate>
+      
+      <guid>https://p-fb.net/master1/gpgpu/</guid>
+      <description>Programmation Parallèle avec CUDA</description>
+    </item>
+    
+    <item>
+      <title>Protocoles et Programmation Réseaux</title>
+      <link>https://p-fb.net/master1/proto_prog/</link>
+      <pubDate>Sun, 22 Aug 2021 23:52:12 +0000</pubDate>
+      
+      <guid>https://p-fb.net/master1/proto_prog/</guid>
+      <description>Protocoles utilisateur/TCP/Prog. Réseau avec Python</description>
+    </item>
+    
+    <item>
+      <title>Réseau et Système</title>
+      <link>https://p-fb.net/master1/res_sys/</link>
+      <pubDate>Sun, 22 Aug 2021 23:52:12 +0000</pubDate>
+      
+      <guid>https://p-fb.net/master1/res_sys/</guid>
+      <description>Système Unix/Programmation Python et Réseaux</description>
+    </item>
+    
+    <item>
+      <title>CompilationII</title>
+      <link>https://p-fb.net/licence3/compilation2/</link>
+      <pubDate>Wed, 18 Aug 2021 22:42:00 +0200</pubDate>
+      
+      <guid>https://p-fb.net/licence3/compilation2/</guid>
+      <description>Utilisation de Lex &amp;amp; Yacc/Utilisation d&amp;rsquo;XML</description>
+    </item>
+    
+    <item>
+      <title>Audit Risques Informatiques</title>
+      <link>https://p-fb.net/IAE/MCCA2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://p-fb.net/IAE/MCCA2/</guid>
+      <description>Cryptographie, Réseaux, IGC/PKI,Risques &amp;amp; Méthodologie</description>
+    </item>
+    
+    <item>
+      <title>Cultures Numériques</title>
+      <link>https://p-fb.net/IAE/L3gestion/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://p-fb.net/IAE/L3gestion/</guid>
+      <description>Présentation de la blockchain et application à Bitcoin</description>
+    </item>
+    
+    <item>
+      <title>GSM démo</title>
+      <link>https://p-fb.net/GSM/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://p-fb.net/GSM/</guid>
+      <description>Dans cette vidéo est présentée l&amp;rsquo;envoi d&amp;rsquo;un SMS depuis une identité quelconque vers le téléphone de la victime: Votre navigateur ne permet pas l&#39;intégration de vidéos, mais ce n&#39;est pas grave ; vous pouvez la télécharger et la voir dans votre lecteur vidéo préféré ! 
+ une fausse borne GSM est créée à l&amp;rsquo;aide d&amp;rsquo;une SDR, &amp;ldquo;Software Define Radio&amp;rdquo;, capable de :  communiquer avec le téléphone de la victime ; prendre en charge des communications vocales et la transmission de SMS pour les téléphones associés à elle ;   le téléphone de la victime est ensuite poussé vers la fausse borne GSM :  ses communications vers la borne GSM officielle sont brouillées ; la fausse borne GSM devient la seule borne GSM disponible ;   la fausse borne GSM prend en charge le téléphone de la victime :  il est autorisé à s&amp;rsquo;intégrer au réseau de communication de la fausse borne ; il obtient un identifiant sur ce réseau ;   l&amp;rsquo;attaquant envoi vers le téléphone de la victime un SMS dont il peut librement choisir l&amp;rsquo;identité de l&amp;rsquo;expéditeur (n&amp;rsquo;importe quel numéro télephonique peut être utilisé) :  le SMS envoyé par l&amp;rsquo;attaquant est enregistré dans le téléphone de la victime ;   une fois l&amp;rsquo;envoi du SMS réalisé la fausse borne peut disparaitre ainsi que le brouillage des communications :  le téléphone de la victime va rejoindre la borne GSM officielle de son opérateur ; la victime ne s&amp;rsquo;est rendu compte de rien et va considérer le SMS de l&amp;rsquo;attaquant comme légitime.</description>
+    </item>
+    
+    <item>
+      <title>vidéos</title>
+      <link>https://p-fb.net/INSA/videos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://p-fb.net/INSA/videos/</guid>
+      <description>Cours OS Embarqué -&amp;gt;p.17 -&amp;gt;p.33 -&amp;gt;fin  Votre navigateur ne permet pas l&#39;intégration de vidéos, mais ce n&#39;est pas grave ; vous pouvez la télécharger et la voir dans votre lecteur vidéo préféré !    Votre navigateur ne permet pas l&#39;intégration de vidéos, mais ce n&#39;est pas grave ; vous pouvez la télécharger et la voir dans votre lecteur vidéo préféré !    Votre navigateur ne permet pas l&#39;intégration de vidéos, mais ce n&#39;est pas grave ; vous pouvez la télécharger et la voir dans votre lecteur vidéo préféré !</description>
+    </item>
+    
+    <item>
+      <title>vidéos</title>
+      <link>https://p-fb.net/licence3/parallelisme1/videos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://p-fb.net/licence3/parallelisme1/videos/</guid>
+      <description> -&amp;gt; p.120 -&amp;gt; fin  Votre navigateur ne permet pas l&#39;intégration de vidéos, mais ce n&#39;est pas grave ; vous pouvez la télécharger et la voir dans votre lecteur vidéo préféré !    Votre navigateur ne permet pas l&#39;intégration de vidéos, mais ce n&#39;est pas grave ; vous pouvez la télécharger et la voir dans votre lecteur vidéo préféré !      </description>
+    </item>
+    
+  </channel>
+</rss>

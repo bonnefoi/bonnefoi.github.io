@@ -1,0 +1,32 @@
+.flex {
+    display:flex;
+    flow-direction: row;
+}
+
+.flex-auto {
+    flex:auto
+}
+
+.flex-first {
+  flex: 0 0;
+}
+
+.flex-even {
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+.flex-wrap {
+    flex-wrap:wrap
+}
+
+.book-columns {
+    margin-left: -1rem;
+    margin-right:-1rem
+}
+
+.book-columns > div {
+    margin: 1rem 0;
+    /* min-width: 10rem; */
+    padding:0 1rem
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>virtualisation on Site pédagogique P-F. Bonnefoi</title>
+    <link>https://p-fb.net/tags/virtualisation/</link>
+    <description>Recent content in virtualisation on Site pédagogique P-F. Bonnefoi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <lastBuildDate>Fri, 10 Sep 2021 21:04:20 +0000</lastBuildDate><atom:link href="https://p-fb.net/tags/virtualisation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Virtualbox, oui mais sans tête !</title>
+      <link>https://p-fb.net/blog/virtualbox_headless/</link>
+      <pubDate>Fri, 10 Sep 2021 21:04:20 +0000</pubDate>
+      
+      <guid>https://p-fb.net/blog/virtualbox_headless/</guid>
+      <description>Il peut être intéressant d&amp;rsquo;avoir une machine sous Linux à portée de SSH toujours disponible et qui soit sans fenêtre, c-à-d tournant en mode headless.
+Par exemple, sous MacOS, on peut disposer des outils Linux sans être encombré d&amp;rsquo;une fenêtre associée à ce Linux.
+L&amp;rsquo;avantage est de faire tourner en tâche de fond une VM sans utiliser beaucoup de mémoire.
+Il y a deux parties distinctes à maitriser:
+ lancer et arrêter la VM en mode ligne de commande; autoriser la connexion par SSH depuis l&amp;rsquo;hôte vers cette VM.</description>
+    </item>
+    
+  </channel>
+</rss>
