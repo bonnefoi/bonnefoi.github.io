@@ -1,0 +1,56 @@
+<phparray>
+	<pid>28</pid>
+	<pathlist type="array">
+		<numIndex index="0">fileadmin/photos_pefclic/</numIndex>
+	</pathlist>
+	<recursive>1</recursive>
+	<ruleConf type="array">
+		<tx_damindex_rule_recursive type="array">
+			<enabled>1</enabled>
+		</tx_damindex_rule_recursive>
+		<tx_damindex_rule_folderAsCat type="array">
+			<enabled>0</enabled>
+			<fuzzy>0</fuzzy>
+			<createCategory>0</createCategory>
+		</tx_damindex_rule_folderAsCat>
+		<tx_damindex_rule_doReindexing type="array">
+			<enabled type="integer">1</enabled>
+			<mode type="integer">1</mode>
+		</tx_damindex_rule_doReindexing>
+		<tx_damindex_rule_titleFromFilename type="array">
+			<enabled>0</enabled>
+		</tx_damindex_rule_titleFromFilename>
+		<tx_damindex_rule_dryRun type="array">
+			<enabled>0</enabled>
+		</tx_damindex_rule_dryRun>
+	</ruleConf>
+	<dataPreset type="array">
+		<title></title>
+		<keywords></keywords>
+		<description></description>
+		<caption></caption>
+		<alt_text></alt_text>
+		<file_orig_location></file_orig_location>
+		<file_orig_loc_desc></file_orig_loc_desc>
+		<ident></ident>
+		<creator></creator>
+		<publisher></publisher>
+		<instructions></instructions>
+		<date_cr></date_cr>
+		<date_mod></date_mod>
+		<loc_desc></loc_desc>
+		<loc_country>0</loc_country>
+		<loc_city></loc_city>
+		<language></language>
+	</dataPreset>
+	<dataPostset type="array">
+		<copyright>P-F.Bonnefoi</copyright>
+		<category>1,</category>
+	</dataPostset>
+	<dataAppend type="array">
+	</dataAppend>
+	<dryRun>0</dryRun>
+	<doReindexing type="integer">1</doReindexing>
+	<collectMeta type="boolean">1</collectMeta>
+	<extraSetup type="NULL"></extraSetup>
+</phparray>
