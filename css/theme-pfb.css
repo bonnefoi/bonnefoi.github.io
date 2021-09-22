@@ -33,18 +33,20 @@ h2.monbloc.red {
 h2.monbloc.green::before {
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
-  /* content: '\f0c6  '; */ /* paperclip */
-  content: '\f5da  '; /* reader */ 
-  /* content: '\f02d  '; */ /* book */
-  /* content: var(--fa); */ 
+  content: var(--fa,'\f5da  '); 
 }
-h2.monbloc::before {
+h2.monbloc.orange::before {
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
-  content: '\f1c1  '; /* pdf */
-  /* content: var(--fa); */
+  content: var(--fa,'\f1c1  '); /* pdf */ 
+  position: relative;
 }
 
+h2.monbloc.blue::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: var(--fa,'\f1c1  ');
+}
 
 :root{
     --MAIN-TEXT-color:#323232; /* Color of text by default */
