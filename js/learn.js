@@ -55,7 +55,7 @@ function switchTab(tabGroup, tabId) {
     // so it's not a button event and we don't need to safe the selction or
     // prevent page jump
     var isButtonEvent = event != undefined;
-    console.log(event);
+    //console.log(event);
     if(isButtonEvent && (typeof event.target.getBoundingClientRect === "function")){
       // save button position relative to viewport
       var yposButton = event.target.getBoundingClientRect().top;
