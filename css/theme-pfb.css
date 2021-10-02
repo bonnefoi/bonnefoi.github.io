@@ -33,12 +33,12 @@ h2.monbloc.red {
 h2.monbloc.green::before {
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
-  content: var(--fa,'\f5da  '); 
+  content: var(--fa,'\f5da  ');
 }
 h2.monbloc.orange::before {
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
-  content: var(--fa,'\f1c1  '); /* pdf */ 
+  content: var(--fa,'\f1c1  '); /* pdf */
   position: relative;
 }
 
@@ -53,10 +53,10 @@ h2.monbloc.blue::before {
     --MAIN-TITLES-TEXT-color: #ffffff; /* Color of titles h2-h3-h4-h5 */
     --MAIN-LINK-color:#00bdf3; /* Color of links */
     --MAIN-LINK-HOVER-color:#167ad0; /* Color of hovered links */
-    --MAIN-ANCHOR-color: #1C90F3; /* color of anchors on titles */ 
+    --MAIN-ANCHOR-color: #1C90F3; /* color of anchors on titles */
 
     --MENU-HEADER-BG-color: #df691a; /* Background color of menu header */
-    --MENU-HEADER-BORDER-color: #f4eafa; /*Color of menu header border */ 
+    --MENU-HEADER-BORDER-color: #f4eafa; /*Color of menu header border */
 
     --MENU-SEARCH-BG-color: #2b3e50; /* Search field background color (by default borders + icons) */
     --MENU-SEARCH-BOX-color: #4e5d6c; /* Override search field border color */
@@ -71,7 +71,7 @@ h2.monbloc.blue::before {
 
     --MENU-VISITED-color: #33a1ff; /* Color of 'page visited' icons in menu */
     --MENU-SECTION-HR-color: #20272b; /* Color of <hr> separator in menu */
-    
+
 }
 
 body {
@@ -150,7 +150,7 @@ a:hover {
     border-color: var(--MENU-SECTION-HR-color);
 }
 
-body.dark-mode, 
+body.dark-mode,
 body.dark-mode main * {
   background: rgb(45, 45, 45);
   color: #f5f5f5;
@@ -158,10 +158,10 @@ body.dark-mode main * {
     --MAIN-TITLES-TEXT-color: #ffffff; /* Color of titles h2-h3-h4-h5 */
     --MAIN-LINK-color:#00bdf3; /* Color of links */
     --MAIN-LINK-HOVER-color:#167ad0; /* Color of hovered links */
-    --MAIN-ANCHOR-color: #1C90F3; /* color of anchors on titles */ 
+    --MAIN-ANCHOR-color: #1C90F3; /* color of anchors on titles */
 
     --MENU-HEADER-BG-color: #df691a; /* Background color of menu header */
-    --MENU-HEADER-BORDER-color: #f4eafa; /*Color of menu header border */ 
+    --MENU-HEADER-BORDER-color: #f4eafa; /*Color of menu header border */
 
     --MENU-SEARCH-BG-color: #2b3e50; /* Search field background color (by default borders + icons) */
     --MENU-SEARCH-BOX-color: #4e5d6c; /* Override search field border color */
@@ -176,7 +176,7 @@ body.dark-mode main * {
 
     --MENU-VISITED-color: #33a1ff; /* Color of 'page visited' icons in menu */
     --MENU-SECTION-HR-color: #20272b; /* Color of <hr> separator in menu */
-    
+
 }
 body.dark-mode h1, body.dark-mode h2, body.dark-mode h3, body.dark-mode h4 {
   color:#ffffff;
@@ -187,6 +187,12 @@ body.dark-mode #top-bar {
 body.dark-mode div.notices.warning p {
   border-top-color: #ce6966;
   background: #392424;
+}
+body.dark-mode h2.red {
+  background: #c66663;
+}
+body.dark-mode section.attachments.red .attachments-files {
+  background: #2d1f1f;
 }
 body.dark-mode h2.green {
   background: #2a6b2a;
@@ -219,7 +225,7 @@ body.dark-mode .tab-nav {
 }
 
 @media (prefers-color-scheme: dark) {
-body, 
+body,
 body main * {
   background: rgb(45, 45, 45);
   color: #f5f5f5;
@@ -227,10 +233,10 @@ body main * {
     --MAIN-TITLES-TEXT-color: #ffffff; /* Color of titles h2-h3-h4-h5 */
     --MAIN-LINK-color:#00bdf3; /* Color of links */
     --MAIN-LINK-HOVER-color:#167ad0; /* Color of hovered links */
-    --MAIN-ANCHOR-color: #1C90F3; /* color of anchors on titles */ 
+    --MAIN-ANCHOR-color: #1C90F3; /* color of anchors on titles */
 
     --MENU-HEADER-BG-color: #df691a; /* Background color of menu header */
-    --MENU-HEADER-BORDER-color: #f4eafa; /*Color of menu header border */ 
+    --MENU-HEADER-BORDER-color: #f4eafa; /*Color of menu header border */
 
     --MENU-SEARCH-BG-color: #2b3e50; /* Search field background color (by default borders + icons) */
     --MENU-SEARCH-BOX-color: #4e5d6c; /* Override search field border color */
@@ -245,7 +251,7 @@ body main * {
 
     --MENU-VISITED-color: #33a1ff; /* Color of 'page visited' icons in menu */
     --MENU-SECTION-HR-color: #20272b; /* Color of <hr> separator in menu */
-    
+
 }
 h1,h2,h3,h4 {
   color:#ffffff;
@@ -256,6 +262,12 @@ h1,h2,h3,h4 {
 div.notices.warning p {
   border-top-color: #ce6966;
   background: #392424;
+}
+h2.monbloc.red {
+  background: #c66663;
+}
+section.attachments.red .attachments-files {
+  background: #2d1f1f;
 }
 h2.monbloc.green {
   background: #2a6b2a;
