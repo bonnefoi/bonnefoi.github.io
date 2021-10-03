@@ -12,21 +12,21 @@
     <title>Ma configuration/outils du quotidien :: Site pédagogique P-F. Bonnefoi</title>
 
     
-    <link href="/css/nucleus.css?1633295266" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1633295266" rel="stylesheet">
-    <link href="/css/hybrid.css?1633295266" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1633295266" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1633295266" rel="stylesheet">
-    <link href="/css/auto-complete.css?1633295266" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1633295266" rel="stylesheet">
-    <link href="/css/theme.css?1633295266" rel="stylesheet">
-    <link href="/css/tabs.css?1633295266" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1633295266" rel="stylesheet">
+    <link href="/css/nucleus.css?1633300466" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1633300466" rel="stylesheet">
+    <link href="/css/hybrid.css?1633300466" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1633300466" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1633300466" rel="stylesheet">
+    <link href="/css/auto-complete.css?1633300466" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1633300466" rel="stylesheet">
+    <link href="/css/theme.css?1633300466" rel="stylesheet">
+    <link href="/css/tabs.css?1633300466" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1633300466" rel="stylesheet">
     
-    <link href="/css/theme-pfb.css?1633295266" rel="stylesheet">
+    <link href="/css/theme-pfb.css?1633300466" rel="stylesheet">
     
-    <link href="/css/columns.css?1633295266" rel="stylesheet"><link href="/css/tag-liste.css?1633295266" rel="stylesheet">
-    <script src="/js/jquery-3.3.1.min.js?1633295266"></script>
+    <link href="/css/columns.css?1633300466" rel="stylesheet"><link href="/css/tag-liste.css?1633300466" rel="stylesheet">
+    <script src="/js/jquery-3.3.1.min.js?1633300466"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -103,14 +103,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1633295266"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1633295266"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1633300466"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1633300466"></script>
 <script type="text/javascript">
     
         var baseurl = "https:\/\/p-fb.net\/";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1633295266"></script>
+<script type="text/javascript" src="/js/search.js?1633300466"></script>
 
     
   </div>
@@ -822,7 +822,10 @@
 
         
 
-<p><strong>Remarque :</strong> j&rsquo;utilise <em>énormément</em>  mes machines par réseau, que ce soit chez moi ou à l&rsquo;extérieur. C&rsquo;est mon choix et il influence les outils que j&rsquo;utilise : pour passer dans une connexion <code>ssh</code> l&rsquo;outil doit être en mode <em>texte</em>.</p>
+
+
+
+	<p><strong>Remarque :</strong> j&rsquo;utilise <em>énormément</em>  mes machines par réseau, que ce soit chez moi ou à l&rsquo;extérieur. C&rsquo;est mon choix et il influence les outils que j&rsquo;utilise : pour passer dans une connexion <code>ssh</code> l&rsquo;outil doit être en mode <em>texte</em>.</p>
 <h3 id="shell">Shell</h3>
 <p>Commençons par le début, c-à-d le <em>shell</em>:</p>
 <ul>
@@ -847,7 +850,20 @@
 <li><code>tmux</code> : pleins de possibilités, très paramétrable, où l&rsquo;on peut directement communiquer avec une fenêtre cachée.</li>
 </ul>
 <p>Le multiplexage permet de maximiser l&rsquo;utilisation d&rsquo;une <strong>unique</strong> connexion <code>ssh</code>: pas besoin de se connecter plusieurs fois pour bénéficier de plusieurs shells différents.</p>
-<p>J&rsquo;utilise le même procédé pour découper la fenêtre en panneaux dans <code>tmux</code> que dans mon gestionnaire de fenêtre <code>bspwm</code> : suivant la plus grande dimension que ce soit horizontalement ou verticalement. Ainsi, je bénéficie de la meilleure répartition <em>automatiquement</em>.</p>
+
+
+
+<figure style="float:left">
+<a href="/blog/ma_config/tmux_splitting.gif" data-featherlight="image">
+<img src="/blog/ma_config/tmux_splitting_hu439c3f1e25a9c34c68cc031a81c8a07c_35032_400x0_resize_box.gif">
+</a>
+</figure>
+
+<p>J&rsquo;utilise le même procédé pour découper la fenêtre en panneaux dans <code>tmux</code> que dans mon gestionnaire de fenêtre <code>bspwm</code> : suivant la plus grande dimension que ce soit horizontalement ou verticalement.</p>
+<p>Ainsi, je bénéficie de la meilleure répartition <em>automatiquement</em>.</p>
+<p><em>(Cliquez sur l&rsquo;image pour voir l&rsquo;animation)</em>
+<div style="clear:both"></div>
+</p>
 <h3 id="édition-de-fichier">Édition de fichier</h3>
 <p>Pour l&rsquo;édition de fichier <code>vim</code> sans discuter.
 Ancien utilisateur d'<code>emacs</code>, j&rsquo;ai quelques combinaisons de touches que j&rsquo;ai configurées dans mon <code>.vimrc</code>.
@@ -882,12 +898,14 @@ Ma barre de menu est <a href="https://github.com/polybar/polybar">polybar/polyba
 <p>Et bien entendu tout est paramétré comme je le désire 😄</p>
 
 
+
+
+<br/>
 <footer class=" footline" >
 	
-    <div style="position:absolute;bottom:0;font-size:90%">
-    <i class='fas fa-calendar'></i> <em> Dernière modification: 03/10/2021</em>
-    </div>
+    
 </footer>
+
         
         </div>
         
@@ -1183,16 +1201,16 @@ Ma barre de menu est <a href="https://github.com/polybar/polybar">polybar/polyba
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1633295266"></script>
-    <script src="/js/perfect-scrollbar.min.js?1633295266"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1633295266"></script>
-    <script src="/js/jquery.sticky.js?1633295266"></script>
-    <script src="/js/featherlight.min.js?1633295266"></script>
-    <script src="/js/highlight.pack.js?1633295266"></script>
+    <script src="/js/clipboard.min.js?1633300466"></script>
+    <script src="/js/perfect-scrollbar.min.js?1633300466"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1633300466"></script>
+    <script src="/js/jquery.sticky.js?1633300466"></script>
+    <script src="/js/featherlight.min.js?1633300466"></script>
+    <script src="/js/highlight.pack.js?1633300466"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1633295266"></script>
-    <script src="/js/learn.js?1633295266"></script>
-    <script src="/js/hugo-learn.js?1633295266"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1633300466"></script>
+    <script src="/js/learn.js?1633300466"></script>
+    <script src="/js/hugo-learn.js?1633300466"></script>
     
     
 
