@@ -5,8 +5,7 @@
     <link>https://p-fb.net/master1/</link>
     <description>Recent content in Master 1 on Site pédagogique P-F. Bonnefoi</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>fr</language>
-    <lastBuildDate>Sun, 22 Aug 2021 23:52:12 +0000</lastBuildDate><atom:link href="https://p-fb.net/master1/index.xml" rel="self" type="application/rss+xml" />
+    <language>fr</language><atom:link href="https://p-fb.net/master1/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Administration Réseaux</title>
       <link>https://p-fb.net/master1/admin_reseaux/</link>
@@ -39,7 +38,7 @@
     <item>
       <title>Protocoles et Programmation Réseaux</title>
       <link>https://p-fb.net/master1/proto_prog/</link>
-      <pubDate>Sun, 22 Aug 2021 23:52:12 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://p-fb.net/master1/proto_prog/</guid>
       <description>Protocoles utilisateur/TCP/Prog. Réseau avec Python</description>
@@ -48,7 +47,7 @@
     <item>
       <title>Réseau et Système</title>
       <link>https://p-fb.net/master1/res_sys/</link>
-      <pubDate>Sun, 22 Aug 2021 23:52:12 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://p-fb.net/master1/res_sys/</guid>
       <description>Système Unix/Programmation Python et Réseaux</description>
