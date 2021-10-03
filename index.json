@@ -42,34 +42,6 @@
 	"content": "Modules de Master 1ère année  "
 },
 {
-	"uri": "https://p-fb.net/tags/r%C3%A9seau/",
-	"title": "réseau",
-	"tags": [],
-	"description": "",
-	"content": ""
-},
-{
-	"uri": "https://p-fb.net/tags/",
-	"title": "Tags",
-	"tags": [],
-	"description": "",
-	"content": ""
-},
-{
-	"uri": "https://p-fb.net/blog/virtualbox_headless/",
-	"title": "Virtualbox, oui mais sans tête !",
-	"tags": ["virtualisation", "réseau"],
-	"description": "",
-	"content": "Il peut être intéressant d\u0026rsquo;avoir une machine sous Linux à portée de SSH toujours disponible et qui soit sans fenêtre, c-à-d tournant en mode headless.\nPar exemple, sous MacOS, on peut disposer des outils Linux sans être encombré d\u0026rsquo;une fenêtre associée à ce Linux.\nL\u0026rsquo;avantage est de faire tourner en tâche de fond une VM sans utiliser beaucoup de mémoire.\nIl y a deux parties distinctes à maitriser:\n lancer et arrêter la VM en mode ligne de commande; autoriser la connexion par SSH depuis l\u0026rsquo;hôte vers cette VM.  Pour connaître le nom de la VM:\nVBoxManage list vms Pour lancer la vm, ici appelée mavm:\nVBoxHeadless --startvm \u0026#34;mavm\u0026#34; Ensuite, on peut faire du Port Forwarding pour atteindre la VM depuis l\u0026rsquo;hôte:\nVBoxManage controlvm mavm natpf1 vers_ssh,tcp,,2224,,22 Enfin, si l\u0026rsquo;on désire éteindre proprement la VM:\nVBoxManage controlvm \u0026quot;mavm\u0026quot; acpipowerbutton Si on veut s\u0026rsquo;assurer l\u0026rsquo;accés à la VM est possible:\nVBoxManage showvminfo \u0026#34;mavm\u0026#34; NIC 1 Rule(0): name = vers_ssh, protocol = tcp, host ip = , host port = 2224, guest ip = , guest port = 22 Pour s\u0026rsquo;y connecter en SSH:\nssh -p 2224 localhost "
-},
-{
-	"uri": "https://p-fb.net/tags/virtualisation/",
-	"title": "virtualisation",
-	"tags": [],
-	"description": "",
-	"content": ""
-},
-{
 	"uri": "https://p-fb.net/tags/linux/",
 	"title": "linux",
 	"tags": [],
@@ -82,6 +54,20 @@
 	"tags": ["réseau", "linux"],
 	"description": "",
 	"content": "Pour le réseau Communication    curl   echo -e \u0026#39;\\x03\\xF1\u0026#39; | curl -X POST --data-binary @- http://foo.com      socat   Pour l\u0026rsquo;envoi/réception en UDP et multicast:\n Client:  sudo socat stdio udp-sendto:224.0.0.127:7182,interface=eth0  Serveur:  socat stdio udp-recvfrom:7182,ip-add-membership=224.0.0.127:eth0,fork      ssh -D   Un relais \u0026ldquo;socks\u0026rdquo; :\nssh -D 1080 p-fb    Analyse de paquets   tcpdump   Les options les plus pratiques sont -lnvv:\nsudo tcpdump -lnvv -i eth0 On peut également ajouter les options :\n A pour afficher le contenu du paquet en ASCII X pour afficher le contenu en heXadécimal e pour afficher les adresses MAC      tshark   tshark permet de traiter des paquets à la manière de tcpdump mais il est capable d\u0026rsquo;analyser un nombre incroyable de format et surtout de pouvoir isoler et formater les différents champs de ces formats:\nsudo tshark -i wlx48ee0c232796 -f \u0026#34;udp and port 53\u0026#34; -T fields -e dns.qry.name tshark est la version ligne de commande de Wireshark, mais sans intreface\n    termshark   Une version terminal de Wireshark avec une interface en ncurses.\n  Pour la manipulation de données   xxd   Passer de l\u0026rsquo;hexa au binaire avec les options -r -p puis du binaire vers l\u0026rsquo;hexa pour du chiffrement AES:\nopenssl enc -aes-256-ecb -K \u0026#34;0000000000000000000000000000000000000000000000000000000000000000\u0026#34; -nopad -in \u0026lt;(echo -n \u0026#34;00000000000000000000000000000000\u0026#34; | xxd -r -p) | xxd    Pour la programmation  vim git  Pour le shell  tmux fzf fdfind ripgrep nnn  "
+},
+{
+	"uri": "https://p-fb.net/tags/r%C3%A9seau/",
+	"title": "réseau",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://p-fb.net/tags/",
+	"title": "Tags",
+	"tags": [],
+	"description": "",
+	"content": ""
 },
 {
 	"uri": "https://p-fb.net/master1/admin_reseaux/",
@@ -130,7 +116,7 @@
 	"title": "Blog",
 	"tags": [],
 	"description": "",
-	"content": "Vous trouverez des remarques et documentations en marge du contenu pédagogique du site.\nLes derniers billets  03/10/2021\n\u0026nbsp;Virtualbox, oui mais sans tête !\n\u0026nbsp;virtualisation\u0026nbsp;\u0026nbsp;réseau\u0026nbsp;\n 03/10/2021\n\u0026nbsp;Liste d\u0026#39;outils à utiliser\n\u0026nbsp;réseau\u0026nbsp;\u0026nbsp;linux\u0026nbsp;\n  "
+	"content": "Vous trouverez des remarques et documentations en marge du contenu pédagogique du site.\nLes derniers billets  03/10/2021\n\u0026nbsp;Liste d\u0026#39;outils à utiliser\n\u0026nbsp;réseau\u0026nbsp;\u0026nbsp;linux\u0026nbsp;\n 03/10/2021\n\u0026nbsp;Virtualbox, oui mais sans (prise de) tête !\n\u0026nbsp;virtualisation\u0026nbsp;\u0026nbsp;réseau\u0026nbsp;\n 03/10/2021\n\u0026nbsp;Ma configuration/outils du quotidien\n\u0026nbsp;shell\u0026nbsp;\u0026nbsp;lifestyle\u0026nbsp;\n  "
 },
 {
 	"uri": "https://p-fb.net/categories/",
@@ -152,6 +138,20 @@
 	"tags": [],
 	"description": "",
 	"content": "Dans cette vidéo est présentée l\u0026rsquo;envoi d\u0026rsquo;un SMS depuis une identité quelconque vers le téléphone de la victime: Votre navigateur ne permet pas l'intégration de vidéos, mais ce n'est pas grave ; vous pouvez la télécharger et la voir dans votre lecteur vidéo préféré ! \n une fausse borne GSM est créée à l\u0026rsquo;aide d\u0026rsquo;une SDR, \u0026ldquo;Software Define Radio\u0026rdquo;, capable de :  communiquer avec le téléphone de la victime ; prendre en charge des communications vocales et la transmission de SMS pour les téléphones associés à elle ;   le téléphone de la victime est ensuite poussé vers la fausse borne GSM :  ses communications vers la borne GSM officielle sont brouillées ; la fausse borne GSM devient la seule borne GSM disponible ;   la fausse borne GSM prend en charge le téléphone de la victime :  il est autorisé à s\u0026rsquo;intégrer au réseau de communication de la fausse borne ; il obtient un identifiant sur ce réseau ;   l\u0026rsquo;attaquant envoi vers le téléphone de la victime un SMS dont il peut librement choisir l\u0026rsquo;identité de l\u0026rsquo;expéditeur (n\u0026rsquo;importe quel numéro télephonique peut être utilisé) :  le SMS envoyé par l\u0026rsquo;attaquant est enregistré dans le téléphone de la victime ;   une fois l\u0026rsquo;envoi du SMS réalisé la fausse borne peut disparaitre ainsi que le brouillage des communications :  le téléphone de la victime va rejoindre la borne GSM officielle de son opérateur ; la victime ne s\u0026rsquo;est rendu compte de rien et va considérer le SMS de l\u0026rsquo;attaquant comme légitime.    "
+},
+{
+	"uri": "https://p-fb.net/tags/lifestyle/",
+	"title": "lifestyle",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://p-fb.net/blog/ma_config/",
+	"title": "Ma configuration/outils du quotidien",
+	"tags": ["shell", "lifestyle"],
+	"description": "",
+	"content": "Remarque : j\u0026rsquo;utilise énormément mes machines par réseau, que ce soit chez moi ou à l\u0026rsquo;extérieur. C\u0026rsquo;est mon choix et il influence les outils que j\u0026rsquo;utilise : pour passer dans une connexion ssh l\u0026rsquo;outil doit être en mode texte.\nShell Commençons par le début, c-à-d le shell:\n shell choisi : zsh au niveau de l\u0026rsquo;utilisation et bash pour la programmation de script; personnalisation du shell : Oh My Zsh - a delightful \u0026amp; open source framework for Zsh  theme utilisé : romkatv/powerlevel10k: A Zsh theme plugins conseillés :  zsh-users/zsh-autosuggestions: Fish-like autosuggestions for zsh zsh-users/zsh-syntax-highlighting: Fish shell like syntax highlighting for Zsh. git il est préinstallé      Tout terminal devrait avoir le plaisir d\u0026rsquo;être multiplexé sous forme texte: scinder le terminal en plusieurs panneaux visibles simultanéments et/ou en fenêtres dont on peut alterner l\u0026rsquo;affichage.\nIci, deux outils :\n screen : l\u0026rsquo;ancêtre, toujours utile pour ses capacités de travailler sur un port série avec la commande screen /dev/ttyUSB0 115200 tmux : pleins de possibilités, très paramétrable, où l\u0026rsquo;on peut directement communiquer avec une fenêtre cachée.  Le multiplexage permet de maximiser l\u0026rsquo;utilisation d\u0026rsquo;une unique connexion ssh: pas besoin de se connecter plusieurs fois pour bénéficier de plusieurs shells différents.\nJ\u0026rsquo;utilise le même procédé pour découper la fenêtre en panneaux dans tmux que dans mon gestionnaire de fenêtre bspwm : suivant la plus grande dimension que ce soit horizontalement ou verticalement. Ainsi, je bénéficie de la meilleure répartition automatiquement.\nÉdition de fichier Pour l\u0026rsquo;édition de fichier vim sans discuter. Ancien utilisateur d'emacs, j\u0026rsquo;ai quelques combinaisons de touches que j\u0026rsquo;ai configurées dans mon .vimrc. Les plugins que je conseille sous vim sont:\n dense-analysis/ale: Check syntax in Vim asynchronously and fix files, with Language Server Protocol (LSP) support ap/vim-css-color: Preview colours in source code while editing vim-airline/vim-airline: lean \u0026amp; mean status/tabline for vim that\u0026rsquo;s light as air jeetsukumaran/vim-buffergator: Vim plugin to list, select and switch between buffers. junegunn/vim-peekaboo: \u0026quot; / @ / CTRL-R zhou13/vim-easyescape: vim-easyescape makes exiting insert mode easy and distraction free!  Ensuite, un peu de navigation rapide dans l\u0026rsquo;aborescence de son système :\n jarun/nnn: n³ The unorthodox terminal file manager  l\u0026rsquo;option de compilation utilisant des icones est\u0026hellip;inutile : sebastiencs/icons-in-terminal: Use any fonts in the terminal without replacing or patching la combinaison avec tmux est formidable : d\u0026rsquo;une touche de clavier, un panneau tmux s\u0026rsquo;ouvre pour éditer/visualiser le fichier sélectionné    Les avantages de nnn sont nombreux et le premier est de tenir dans un unique fichier source C.\nPour visualiser des images dans mon terminal j\u0026rsquo;utilise hpjansson/chafa: 📺🗿 Terminal graphics for the 21st century.\nC\u0026rsquo;est un outil fabuleux de rendu d\u0026rsquo;images dans le terminal capable de créer des représentations de toute beauté en utilisant une grande partie des possibilités de l\u0026rsquo;Unicode (idéogrammes, alphabets non latin).\nInterface graphique Pour l\u0026rsquo;interface graphique, je reste sur X11 pour ces capacités d\u0026rsquo;utilisation à distance.\nMon gestionnaire de fenêtre est baskerville/bspwm: A tiling window manager based on binary space partitioning Ma barre de menu est polybar/polybar: A fast and easy-to-use status bar\nPour mon émulateur de terminal j\u0026rsquo;utilise Home - kitty\nQue dire de plus? il est rapide, un terminal déjà ouvert peut être contrôlé par une commande, il dispose d\u0026rsquo;extensions intéressantes à la manière d'iterm2 sous OSX, etc et en plus c\u0026rsquo;est un 🐈\nEt? Et bien entendu tout est paramétré comme je le désire 😄\n"
 },
 {
 	"uri": "https://p-fb.net/tmc/",
@@ -182,6 +182,13 @@
 	"content": "Support de cours    Cours python.pdf\n 1Mo\n    Cours res sys reseau.pdf\n 7Mo\n    Cours res sys unix.pdf\n 32Mo\n     Fiches de TDs    Sys res td 1 2021 2022.pdf\n 3Mo\n     Fiches de TPs    Sys res tp 1 2021 2022.pdf\n 3Mo\n    Sys res tp 1 corrections 2021 2022.pdf\n 3Mo\n     Annales    Sys res janvier 2021.pdf\n 3Mo\n    Sys res janvier 2021 anglais.pdf\n 3Mo\n    Sys res janvier 2020.pdf\n 3Mo\n    Sys res janvier 2020 anglais.pdf\n 3Mo\n     "
 },
 {
+	"uri": "https://p-fb.net/tags/shell/",
+	"title": "shell",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
 	"uri": "https://p-fb.net/INSA/videos/",
 	"title": "vidéos",
 	"tags": [],
@@ -194,4 +201,18 @@
 	"tags": [],
 	"description": "",
 	"content": " -\u0026gt; p.120 -\u0026gt; fin  Votre navigateur ne permet pas l'intégration de vidéos, mais ce n'est pas grave ; vous pouvez la télécharger et la voir dans votre lecteur vidéo préféré !    Votre navigateur ne permet pas l'intégration de vidéos, mais ce n'est pas grave ; vous pouvez la télécharger et la voir dans votre lecteur vidéo préféré !      "
+},
+{
+	"uri": "https://p-fb.net/blog/virtualbox_headless/",
+	"title": "Virtualbox, oui mais sans (prise de) tête !",
+	"tags": ["virtualisation", "réseau"],
+	"description": "",
+	"content": "Il peut être intéressant d\u0026rsquo;avoir une machine sous Linux à portée de SSH toujours disponible et qui soit sans fenêtre, c-à-d tournant en mode headless.\nPar exemple, sous MacOS, on peut disposer des outils Linux sans être encombré d\u0026rsquo;une fenêtre associée à ce Linux.\nL\u0026rsquo;avantage est de faire tourner en tâche de fond une VM sans utiliser beaucoup de mémoire.\nIl y a deux parties distinctes à maitriser:\n lancer et arrêter la VM en mode ligne de commande; autoriser la connexion par SSH depuis l\u0026rsquo;hôte vers cette VM.  Pour connaître le nom de la VM:\nVBoxManage list vms Pour lancer la vm, ici appelée mavm:\nVBoxHeadless --startvm \u0026#34;mavm\u0026#34; Ensuite, on peut faire du Port Forwarding pour atteindre la VM depuis l\u0026rsquo;hôte:\nVBoxManage controlvm mavm natpf1 vers_ssh,tcp,,2224,,22 Enfin, si l\u0026rsquo;on désire éteindre proprement la VM:\nVBoxManage controlvm \u0026quot;mavm\u0026quot; acpipowerbutton Si on veut s\u0026rsquo;assurer l\u0026rsquo;accés à la VM est possible:\nVBoxManage showvminfo \u0026#34;mavm\u0026#34; NIC 1 Rule(0): name = vers_ssh, protocol = tcp, host ip = , host port = 2224, guest ip = , guest port = 22 Pour s\u0026rsquo;y connecter en SSH:\nssh -p 2224 localhost "
+},
+{
+	"uri": "https://p-fb.net/tags/virtualisation/",
+	"title": "virtualisation",
+	"tags": [],
+	"description": "",
+	"content": ""
 }]

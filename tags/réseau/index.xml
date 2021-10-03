@@ -6,20 +6,7 @@
     <description>Recent content in réseau on Site pédagogique P-F. Bonnefoi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Fri, 10 Sep 2021 21:04:20 +0000</lastBuildDate><atom:link href="https://p-fb.net/tags/r%C3%A9seau/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Virtualbox, oui mais sans tête !</title>
-      <link>https://p-fb.net/blog/virtualbox_headless/</link>
-      <pubDate>Fri, 10 Sep 2021 21:04:20 +0000</pubDate>
-      
-      <guid>https://p-fb.net/blog/virtualbox_headless/</guid>
-      <description>Il peut être intéressant d&amp;rsquo;avoir une machine sous Linux à portée de SSH toujours disponible et qui soit sans fenêtre, c-à-d tournant en mode headless.
-Par exemple, sous MacOS, on peut disposer des outils Linux sans être encombré d&amp;rsquo;une fenêtre associée à ce Linux.
-L&amp;rsquo;avantage est de faire tourner en tâche de fond une VM sans utiliser beaucoup de mémoire.
-Il y a deux parties distinctes à maitriser:
- lancer et arrêter la VM en mode ligne de commande; autoriser la connexion par SSH depuis l&amp;rsquo;hôte vers cette VM.</description>
-    </item>
-    
+    <lastBuildDate>Mon, 06 Sep 2021 20:00:39 +0000</lastBuildDate><atom:link href="https://p-fb.net/tags/r%C3%A9seau/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Liste d&#39;outils à utiliser</title>
       <link>https://p-fb.net/blog/outils/</link>
@@ -29,6 +16,19 @@ Il y a deux parties distinctes à maitriser:
       <description>Pour le réseau Communication    curl   echo -e &amp;#39;\x03\xF1&amp;#39; | curl -X POST --data-binary @- http://foo.com      socat   Pour l&amp;rsquo;envoi/réception en UDP et multicast:
  Client:  sudo socat stdio udp-sendto:224.0.0.127:7182,interface=eth0  Serveur:  socat stdio udp-recvfrom:7182,ip-add-membership=224.0.0.127:eth0,fork      ssh -D   Un relais &amp;ldquo;socks&amp;rdquo; :
 ssh -D 1080 p-fb    Analyse de paquets   tcpdump   Les options les plus pratiques sont -lnvv:</description>
+    </item>
+    
+    <item>
+      <title>Virtualbox, oui mais sans (prise de) tête !</title>
+      <link>https://p-fb.net/blog/virtualbox_headless/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://p-fb.net/blog/virtualbox_headless/</guid>
+      <description>Il peut être intéressant d&amp;rsquo;avoir une machine sous Linux à portée de SSH toujours disponible et qui soit sans fenêtre, c-à-d tournant en mode headless.
+Par exemple, sous MacOS, on peut disposer des outils Linux sans être encombré d&amp;rsquo;une fenêtre associée à ce Linux.
+L&amp;rsquo;avantage est de faire tourner en tâche de fond une VM sans utiliser beaucoup de mémoire.
+Il y a deux parties distinctes à maitriser:
+ lancer et arrêter la VM en mode ligne de commande; autoriser la connexion par SSH depuis l&amp;rsquo;hôte vers cette VM.</description>
     </item>
     
   </channel>

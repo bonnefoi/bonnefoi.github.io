@@ -6,31 +6,49 @@
     <description>Recent content in Tags on Site pédagogique P-F. Bonnefoi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Fri, 10 Sep 2021 21:04:20 +0000</lastBuildDate><atom:link href="https://p-fb.net/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>réseau</title>
-      <link>https://p-fb.net/tags/r%C3%A9seau/</link>
-      <pubDate>Fri, 10 Sep 2021 21:04:20 +0000</pubDate>
-      
-      <guid>https://p-fb.net/tags/r%C3%A9seau/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>virtualisation</title>
-      <link>https://p-fb.net/tags/virtualisation/</link>
-      <pubDate>Fri, 10 Sep 2021 21:04:20 +0000</pubDate>
-      
-      <guid>https://p-fb.net/tags/virtualisation/</guid>
-      <description></description>
-    </item>
-    
+    <lastBuildDate>Mon, 06 Sep 2021 20:00:39 +0000</lastBuildDate><atom:link href="https://p-fb.net/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>linux</title>
       <link>https://p-fb.net/tags/linux/</link>
       <pubDate>Mon, 06 Sep 2021 20:00:39 +0000</pubDate>
       
       <guid>https://p-fb.net/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>réseau</title>
+      <link>https://p-fb.net/tags/r%C3%A9seau/</link>
+      <pubDate>Mon, 06 Sep 2021 20:00:39 +0000</pubDate>
+      
+      <guid>https://p-fb.net/tags/r%C3%A9seau/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>lifestyle</title>
+      <link>https://p-fb.net/tags/lifestyle/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://p-fb.net/tags/lifestyle/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>shell</title>
+      <link>https://p-fb.net/tags/shell/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://p-fb.net/tags/shell/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>virtualisation</title>
+      <link>https://p-fb.net/tags/virtualisation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://p-fb.net/tags/virtualisation/</guid>
       <description></description>
     </item>
     

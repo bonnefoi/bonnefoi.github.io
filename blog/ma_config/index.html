@@ -9,7 +9,7 @@
 
     <link rel="icon" href="/images/favicon.png" type="image/png">
 
-    <title>Master 2/TMC :: Site pédagogique P-F. Bonnefoi</title>
+    <title>Ma configuration/outils du quotidien :: Site pédagogique P-F. Bonnefoi</title>
 
     
     <link href="/css/nucleus.css?1633295266" rel="stylesheet">
@@ -40,7 +40,7 @@
     </style>
     
   </head>
-  <body class="" data-url="/tmc/">
+  <body class="" data-url="/blog/ma_config/">
     <nav id="sidebar" class="">
 
 
@@ -512,8 +512,8 @@
   
     
     <li data-nav-id="/tmc/" title="Master 2/TMC" class="dd-item
-        parent
-        active
+        
+        
         
         ">
       <div style="display: flex;align-items: center"><img src="/icones/favicon_fst.png">&nbsp;<a href="/tmc/">
@@ -763,7 +763,13 @@
             
           
           
-            <a href='/'></a> > Master 2/TMC
+            
+            
+          
+          
+            <a href='/'></a> > <a href='/blog/'>Blog</a> > Ma configuration/outils du quotidien
+          
+        
           
         
           
@@ -776,9 +782,14 @@
     <div class="wrapper">
 <nav id="TableOfContents">
   <ul>
-    <li><a href="#support-de-cours">Support de cours</a></li>
-    <li><a href="#fiches-de-tds">Fiches de TDs</a></li>
-    <li><a href="#annales">Annales</a></li>
+    <li>
+      <ul>
+        <li><a href="#shell">Shell</a></li>
+        <li><a href="#édition-de-fichier">Édition de fichier</a></li>
+        <li><a href="#interface-graphique">Interface graphique</a></li>
+        <li><a href="#et">Et?</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
     </div>
@@ -790,173 +801,90 @@
             
         <div id="head-tags">
         
+<div class="tags">
+
+  <a class="tag-link" href="/tags/shell">shell</a>
+
+  <a class="tag-link" href="/tags/lifestyle">lifestyle</a>
+
+</div>
+
         </div>
         
         <div id="body-inner">
           
             <h1>
               
-              Master 2/TMC  <br/><span style="font-size:50%">(Semestre : 1)</span> 
+              Ma configuration/outils du quotidien 
               
             </h1>
           
 
         
 
-
-	
-<div class="expand">
-    <div class="expand-label" style="cursor: pointer;" onclick="$h = $(this);$h.next('div').slideToggle(100,function () {$h.children('i').attr('class',function () {return $h.next('div').is(':visible') ? 'fas fa-chevron-down' : 'fas fa-chevron-right';});});">
-        <i style="font-size:x-small;" class="fas fa-chevron-right"></i>
-        <span>
-        
-    	
-    	<em>Dans cette UE :</em>
-    	
-    	</span>
-    </div>
-    <div class="expand-content" style="display: none;">
-        <p>On parle de :</p>
+<p><strong>Remarque :</strong> j&rsquo;utilise <em>énormément</em>  mes machines par réseau, que ce soit chez moi ou à l&rsquo;extérieur. C&rsquo;est mon choix et il influence les outils que j&rsquo;utilise : pour passer dans une connexion <code>ssh</code> l&rsquo;outil doit être en mode <em>texte</em>.</p>
+<h3 id="shell">Shell</h3>
+<p>Commençons par le début, c-à-d le <em>shell</em>:</p>
 <ul>
-<li>matériel embarqué avec la programmation de modules;</li>
-<li>communication radio avec du LoRa;</li>
-<li>de sécurité matériel et des protocoles;</li>
+<li>shell choisi : <code>zsh</code> au niveau de l&rsquo;utilisation et <code>bash</code> pour la programmation de script;</li>
+<li>personnalisation du shell : <a href="https://ohmyz.sh/">Oh My Zsh - a delightful &amp; open source framework for Zsh</a>
+<ul>
+<li>theme utilisé : <a href="https://github.com/romkatv/powerlevel10k">romkatv/powerlevel10k: A Zsh theme</a></li>
+<li>plugins conseillés :
+<ul>
+<li><a href="https://github.com/zsh-users/zsh-autosuggestions">zsh-users/zsh-autosuggestions: Fish-like autosuggestions for zsh</a></li>
+<li><a href="https://github.com/zsh-users/zsh-syntax-highlighting">zsh-users/zsh-syntax-highlighting: Fish shell like syntax highlighting for Zsh.</a></li>
+<li>git <em>il est préinstallé</em></li>
 </ul>
-
-    </div>
-</div>
-
-<h2 class="monbloc green" id="support-de-cours">Support de cours</h2>
-<section class="attachments green"> 
-<div class="attachments-files">
-<table>
-<tr>
-  <td style="padding: 5px;"><a href="cours/iot_tmc.pdf"><img src="cours/iot_tmc_thumbnail.png" class="inline"></a></td>
-  <td style="word-break: break-all;"><p><a href="cours/iot_tmc.pdf">Iot tmc.pdf</a></p></td>
-<td><p>19Mo</p></td>
-</tr>
-<tr>
-  <td style="padding: 5px;"><a href="cours/iot_radio.pdf"><img src="cours/iot_radio_thumbnail.png" class="inline"></a></td>
-  <td style="word-break: break-all;"><p><a href="cours/iot_radio.pdf">Iot radio.pdf</a></p></td>
-<td><p>99Mo</p></td>
-</tr>
-<tr>
-  <td style="padding: 5px;"><a href="cours/iot_security.pdf"><img src="cours/iot_security_thumbnail.png" class="inline"></a></td>
-  <td style="word-break: break-all;"><p><a href="cours/iot_security.pdf">Iot security.pdf</a></p></td>
-<td><p>1Mo</p></td>
-</tr>
-</table>
-  </div>
-</section>
-<h2 class="monbloc orange" id="fiches-de-tds">Fiches de TDs</h2>
-<section class="attachments orange"> 
-<div class="attachments-files">
-<table>
-<tr>
-  <td style="padding: 5px;"><a href="fiches/TMC_TP_1_2021_2022.pdf"><img src="fiches/TMC_TP_1_2021_2022_thumbnail.png" class="inline"></a></td>
-  <td style="word-break: break-all;"><p><a href="fiches/TMC_TP_1_2021_2022.pdf">Tmc tp 1 2021 2022.pdf</a></p></td>
-<td><p>4Mo</p></td>
-</tr>
-</table>
-  </div>
-</section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-  
-      
-      
-      
-      
-      
-  
-
-  
-
-<div class="tab-panel">
-<div class="tab-nav">
-
-
-  <button
-      data-tab-item="Bilan de liaison"
-      data-tab-group="ID1633295266278667000"
-      class="tab-nav-button btn active"
-      onclick="switchTab('ID1633295266278667000','Bilan de liaison')"
-      >Bilan de liaison</button>
-
-
-</div>
-<div class="tab-content">
-
-
-
-
-
-
-      
-      
-      
-      
-<div data-tab-item="Bilan de liaison" data-tab-group="ID1633295266278667000" class="tab-item active">
-<video controls 
-      preload="none"
-      width="100%" 
-      
-     
-    
-      poster="https://p-fb.net/fileadmin/TMC/2020_2021/tmc_cours_link_budget.png"
-    playsinline class="html-video">
-    <source src="https://p-fb.net/fileadmin/TMC/2020_2021/tmc_cours_link_budget.mp4" type="video/mp4"><span>Votre navigateur ne permet pas l'intégration de vidéos, mais ce n'est pas grave ; vous pouvez <a href="https://p-fb.net/fileadmin/TMC/2020_2021/tmc_cours_link_budget.mp4">la télécharger</a> et la voir dans votre lecteur vidéo préféré !</span>
-</video>
-</div>
-<div style="clear:both"></div>
-
-
-</div>
-</div>
-
-<h2 class="monbloc blue" id="annales">Annales</h2>
-<section class="attachments blue"> 
-<div class="attachments-files">
-<table>
-<tr>
-  <td style="padding: 5px;"><a href="annales/TMC_examen_2020_2021.pdf"><img src="annales/TMC_examen_2020_2021_thumbnail.png" class="inline"></a></td>
-  <td style="word-break: break-all;"><p><a href="annales/TMC_examen_2020_2021.pdf">Tmc examen 2020 2021.pdf</a></p></td>
-<td><p>3Mo</p></td>
-</tr>
-<tr>
-  <td style="padding: 5px;"><a href="annales/TMC_examen_2019_2020.pdf"><img src="annales/TMC_examen_2019_2020_thumbnail.png" class="inline"></a></td>
-  <td style="word-break: break-all;"><p><a href="annales/TMC_examen_2019_2020.pdf">Tmc examen 2019 2020.pdf</a></p></td>
-<td><p>4Mo</p></td>
-</tr>
-<tr>
-  <td style="padding: 5px;"><a href="annales/TMC_examen_2018_2019.pdf"><img src="annales/TMC_examen_2018_2019_thumbnail.png" class="inline"></a></td>
-  <td style="word-break: break-all;"><p><a href="annales/TMC_examen_2018_2019.pdf">Tmc examen 2018 2019</a></p></td>
-<td><p>4Mo</p></td>
-</tr>
-</table>
-  </div>
-</section>
-
-
+</li>
+</ul>
+</li>
+</ul>
+<p>Tout terminal devrait avoir le plaisir d&rsquo;être <em>multiplexé</em> sous forme texte: scinder le terminal en plusieurs panneaux visibles simultanéments et/ou en fenêtres dont on peut alterner l&rsquo;affichage.</p>
+<p>Ici, deux outils :</p>
+<ul>
+<li><code>screen</code> : l&rsquo;ancêtre, toujours utile pour ses capacités de travailler sur un port série avec la commande <code>screen /dev/ttyUSB0 115200</code></li>
+<li><code>tmux</code> : pleins de possibilités, très paramétrable, où l&rsquo;on peut directement communiquer avec une fenêtre cachée.</li>
+</ul>
+<p>Le multiplexage permet de maximiser l&rsquo;utilisation d&rsquo;une <strong>unique</strong> connexion <code>ssh</code>: pas besoin de se connecter plusieurs fois pour bénéficier de plusieurs shells différents.</p>
+<p>J&rsquo;utilise le même procédé pour découper la fenêtre en panneaux dans <code>tmux</code> que dans mon gestionnaire de fenêtre <code>bspwm</code> : suivant la plus grande dimension que ce soit horizontalement ou verticalement. Ainsi, je bénéficie de la meilleure répartition <em>automatiquement</em>.</p>
+<h3 id="édition-de-fichier">Édition de fichier</h3>
+<p>Pour l&rsquo;édition de fichier <code>vim</code> sans discuter.
+Ancien utilisateur d'<code>emacs</code>, j&rsquo;ai quelques combinaisons de touches que j&rsquo;ai configurées dans mon <code>.vimrc</code>.
+Les plugins que je conseille sous <code>vim</code> sont:</p>
+<ul>
+<li><a href="https://github.com/dense-analysis/ale">dense-analysis/ale: Check syntax in Vim asynchronously and fix files, with Language Server Protocol (LSP) support</a></li>
+<li><a href="https://github.com/ap/vim-css-color">ap/vim-css-color: Preview colours in source code while editing</a></li>
+<li><a href="https://github.com/vim-airline/vim-airline">vim-airline/vim-airline: lean &amp; mean status/tabline for vim that&rsquo;s light as air</a></li>
+<li><a href="https://github.com/jeetsukumaran/vim-buffergator">jeetsukumaran/vim-buffergator: Vim plugin to list, select and switch between buffers.</a></li>
+<li><a href="https://github.com/junegunn/vim-peekaboo">junegunn/vim-peekaboo: &quot; / @ / CTRL-R</a></li>
+<li><a href="https://github.com/zhou13/vim-easyescape/">zhou13/vim-easyescape: vim-easyescape makes exiting insert mode easy and distraction free!</a></li>
+</ul>
+<p>Ensuite, un peu de <strong>navigation rapide</strong> dans l&rsquo;aborescence de son système :</p>
+<ul>
+<li><a href="https://github.com/jarun/nnn">jarun/nnn: n³ The unorthodox terminal file manager</a>
+<ul>
+<li>l&rsquo;option de compilation utilisant des <em>icones</em> est&hellip;inutile : <a href="https://github.com/sebastiencs/icons-in-terminal#installation">sebastiencs/icons-in-terminal: Use any fonts in the terminal without replacing or patching</a></li>
+<li>la combinaison avec <code>tmux</code> est formidable : d&rsquo;une touche de clavier, un panneau tmux s&rsquo;ouvre pour éditer/visualiser le fichier sélectionné</li>
+</ul>
+</li>
+</ul>
+<p>Les avantages de <code>nnn</code> sont nombreux et le premier est de tenir dans un unique fichier source <code>C</code>.</p>
+<p>Pour visualiser des images dans mon terminal j&rsquo;utilise <a href="https://github.com/hpjansson/chafa">hpjansson/chafa: 📺🗿 Terminal graphics for the 21st century.</a></p>
+<p>C&rsquo;est un outil fabuleux de rendu d&rsquo;images dans le terminal capable de créer des représentations de toute beauté en utilisant une grande partie des possibilités de l&rsquo;Unicode (idéogrammes, alphabets non latin).</p>
+<h3 id="interface-graphique">Interface graphique</h3>
+<p>Pour l&rsquo;interface graphique, je reste sur X11 pour ces capacités d&rsquo;utilisation à distance.</p>
+<p>Mon gestionnaire de fenêtre est <a href="https://github.com/baskerville/bspwm">baskerville/bspwm: A tiling window manager based on binary space partitioning</a>
+Ma barre de menu est <a href="https://github.com/polybar/polybar">polybar/polybar: A fast and easy-to-use status bar</a></p>
+<p>Pour mon émulateur de terminal j&rsquo;utilise <a href="https://sw.kovidgoyal.net/kitty/">Home - kitty</a></p>
+<p>Que dire de plus? il est rapide, un terminal déjà ouvert peut être contrôlé par une commande, il dispose d&rsquo;extensions intéressantes à la manière d'<code>iterm2</code> sous OSX, <em>etc</em> et en plus c&rsquo;est un 🐈</p>
+<h3 id="et">Et?</h3>
+<p>Et bien entendu tout est paramétré comme je le désire 😄</p>
 
 
 <footer class=" footline" >
 	
-    <div>
+    <div style="position:absolute;bottom:0;font-size:90%">
     <i class='fas fa-calendar'></i> <em> Dernière modification: 03/10/2021</em>
     </div>
 </footer>
@@ -1223,7 +1151,6 @@
             
             
                 
-                    
                     
                 
                 
