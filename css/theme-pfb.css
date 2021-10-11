@@ -300,3 +300,44 @@ section.attachments.blue .attachments-files {
 }
 
 }
+
+
+
+div.mynotices {
+    margin: 2rem 0;
+    position: relative;
+}
+div.mynotices > div {
+    padding: 6px;
+    display: block;
+    font-size: 1.3rem;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    color: #666;
+}
+div.mynotices > div:before {
+    display: block;
+    position: absolute;
+    top: 2px;
+    color: #fff;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: var(--fa)var( --titre);
+    left: 5px;
+}
+div.mynotices.info > div {
+    border-top: 30px solid #F0B37E;
+    background: #FFF2DB;
+}
+div.mynotices.warning > div {
+    border-top: 30px solid rgba(217, 83, 79, 0.8);
+    background: #FAE2E2;
+}
+div.mynotices.note > div {
+    border-top: 30px solid #6AB0DE;
+    background: #E7F2FA;
+}
+div.mynotices.tip > div {
+    border-top: 30px solid rgba(92, 184, 92, 0.8);
+    background: #E6F9E6;
+}
