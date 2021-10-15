@@ -23,18 +23,8 @@ ssh -D 1080 p-fb    Analyse de paquets   tcpdump   Les options les plus pratique
       <pubDate>Sun, 22 Aug 2021 23:52:12 +0000</pubDate>
       
       <guid>https://p-fb.net/master1/admin_reseaux/</guid>
-      <description>Vous trouverez l&amp;rsquo;ensemble des ressources
- ## Support de cours{.monbloc .green}   Cours res sys reseau.pdf
- 7Mo
-    Cours res sys unix.pdf
- 10Mo
-     ## Annales{.monbloc .blue}   Sys res janvier 2021.pdf
- 3Mo
-    Sys res janvier 2021 anglais.pdf
- 3Mo
-    Sys res janvier 2020.pdf
- 3Mo
-    Sys res janvier 2020 anglais.</description>
+      <description> Vous trouverez l&amp;rsquo;ensemble des ressources
+ ## Support de cours{.monbloc .green}   Cours res sys reseau.pdf     Cours res sys unix.pdf      ## Annales{.monbloc .blue}   Sys res janvier 2021.pdf     Sys res janvier 2021 anglais.pdf     Sys res janvier 2020.pdf     Sys res janvier 2020 anglais.pdf      </description>
     </item>
     
     <item>
