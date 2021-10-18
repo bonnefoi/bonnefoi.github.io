@@ -4,7 +4,7 @@
 	"title": "3IL",
 	"tags": [],
 	"description": "",
-	"content": "Harmonisation Développement Cours   Cours python.pdf      Les sources des programmes Python réalisés les lundi 20 et mardi 21 septembre sont dispos à git.unilim.fr\nPour le TP nº2, voici la ressource à télécharger: access.log\n Fiches   TP 1      TP 2       "
+	"content": "Harmonisation Développement Cours   Python      Les sources des programmes Python réalisés les lundi 20 et mardi 21 septembre sont dispos à git.unilim.fr\nPour le TP nº2, voici la ressource à télécharger: access.log\n Fiches   Tp 1     Tp 2      "
 },
 {
 	"uri": "https://p-fb.net/IAE/",
@@ -18,7 +18,7 @@
 	"title": "INSA",
 	"tags": [],
 	"description": "",
-	"content": "Réseau non Filaire Attention Vous trouverez des vidéos des cours et TDs dans la page vidéos\n  Support de cours   Insa MAC radio.pdf     Handout insa MAC radio 2020 2021.pdf     Insa os embarque.pdf     Handout insa os embarque 2020 2021.pdf      Fiches TDs/TPs   Insa io t 2020 2021.pdf     Insa micropython.pdf     Insa micropython 2.pdf     Insa budget liaison 2020 2021.pdf     Insa budget liaison corrections.pdf      Annales   Insa rnf examen 2016 2017.pdf     Insa rnf examen 2017 2018.pdf     Insa rnf examen 2018 2019.pdf      "
+	"content": "Réseau non Filaire Attention Vous trouverez des vidéos des cours et TDs dans la page vidéos\n  Support de cours   Insa MAC radio     Handout insa MAC radio 2020 2021     Insa os embarque     Handout insa os embarque 2020 2021      Fiches TDs/TPs   Insa io t 2020 2021     Insa micropython     Insa micropython 2     Insa budget liaison 2020 2021     Insa budget liaison corrections      Annales   Insa rnf examen 2016 2017     Insa rnf examen 2017 2018     Insa rnf examen 2018 2019      "
 },
 {
 	"uri": "https://p-fb.net/licence3/",
@@ -74,28 +74,28 @@
 	"title": "Administration Réseaux",
 	"tags": [],
 	"description": "",
-	"content": " Vous trouverez l\u0026rsquo;ensemble des ressources\n ## Support de cours{.monbloc .green}   Cours res sys reseau.pdf     Cours res sys unix.pdf      ## Annales{.monbloc .blue}   Sys res janvier 2021.pdf     Sys res janvier 2021 anglais.pdf     Sys res janvier 2020.pdf     Sys res janvier 2020 anglais.pdf      "
+	"content": " Vous trouverez l\u0026rsquo;ensemble des ressources\n ## Support de cours{.monbloc .green}   Res sys reseau     Res sys unix      ## Annales{.monbloc .blue}   Sys res janvier 2021     Sys res janvier 2021 anglais     Sys res janvier 2020     Sys res janvier 2020 anglais      "
 },
 {
 	"uri": "https://p-fb.net/master1/gpgpu/",
 	"title": "Développement GPGPU",
 	"tags": [],
 	"description": "",
-	"content": "Support de cours   Cuda.Pdf     Dev gpgpu.pdf      Fiches de TDs   TD 1      TD 1 CORRECTIONS     TD 2       Fiches de TPs   TP 2       Annales   Gpgpu 2020.pdf     Gpgpu 2020 anglais.pdf     Gpgpu 2019.pdf     Gpgpu 2019 anglais.pdf      "
+	"content": "Support de cours   Cuda     Dev gpgpu      Fiches de TDs   Td 1     Td 1 corrections     Td 2      Fiches de TPs   Tp 2      Annales   Gpgpu 2020     Gpgpu 2020 anglais     Gpgpu 2019     Gpgpu 2019 anglais      "
 },
 {
 	"uri": "https://p-fb.net/licence3/compilation2/",
 	"title": "CompilationII",
 	"tags": [],
 	"description": "",
-	"content": " ## Cours{.monbloc .green}   Cours compilation2.pdf     Handout compilation2 2020 2021.pdf      ## Fiches de TDs{.monbloc .orange}   TD 1      TD 2      TD 3        ## Fiches de TPs{.monbloc .red}   TP 1      TP 2       ## Annales{.monbloc .blue}   Compilation 2 mai 2021.pdf     Compilation 2 mai 2019.pdf     Compilation 2 mai 2018.pdf      "
+	"content": " ## Cours{.monbloc .green}   Compilation2     Handout compilation2 2020 2021      ## Fiches de TDs{.monbloc .orange}   Td 1     Td 2     Td 3       ## Fiches de TPs{.monbloc .red}   Tp 1     Tp 2      ## Annales{.monbloc .blue}   Compilation 2 mai 2021     Compilation 2 mai 2019     Compilation 2 mai 2018      "
 },
 {
 	"uri": "https://p-fb.net/licence3/parallelisme1/",
 	"title": "ParalellismeI",
 	"tags": [],
 	"description": "",
-	"content": " Attention Vous trouverez des vidéos des cours et TDs dans la page vidéos\n  Cours   Cours parallelisme i.pdf      Fiches de TDs   TD 1      TD 2       Annales   Parallelisme i decembre 2020.pdf     Parallelisme i decembre 2019.pdf     Parallelisme i decembre 2018.pdf      "
+	"content": " Attention Vous trouverez des vidéos des cours et TDs dans la page vidéos\n  Cours   Parallelisme i      Fiches de TDs   Td 1     Td 2      Annales   Parallelisme i decembre 2020     Parallelisme i decembre 2019     Parallelisme i decembre 2018      "
 },
 {
 	"uri": "https://p-fb.net/",
@@ -109,7 +109,7 @@
 	"title": "Audit Risques Informatiques",
 	"tags": [],
 	"description": "",
-	"content": "Support de cours   Cours MC ca intro.pdf     Cours mcca reseaux.pdf     Cours crypto mcca.pdf     Methodologie securite.pdf      Liens pour tester le chiffrement de César et la Scytale spartiate  www.apprendre-en-ligne.net/crypto/transpo/scytale.html www.apprendre-en-ligne.net/crypto/cesar/index.html www.apprendre-en-ligne.net/crypto/cesar/decrypt.html www.cryptool-online.org/index.php    Annales   Audit risques informatiques decembre 2019.pdf     Audit risques informatiques decembre 2018.pdf     Audit risques informatiques decembre 2017.pdf      "
+	"content": "Support de cours   MC ca intro     Mcca reseaux     Crypto mcca     Methodologie securite      Liens pour tester le chiffrement de César et la Scytale spartiate  www.apprendre-en-ligne.net/crypto/transpo/scytale.html www.apprendre-en-ligne.net/crypto/cesar/index.html www.apprendre-en-ligne.net/crypto/cesar/decrypt.html www.cryptool-online.org/index.php    Annales   Audit risques informatiques decembre 2019     Audit risques informatiques decembre 2018     Audit risques informatiques decembre 2017      "
 },
 {
 	"uri": "https://p-fb.net/blog/",
@@ -130,7 +130,7 @@
 	"title": "Cultures Numériques",
 	"tags": [],
 	"description": "",
-	"content": "Blockchain Cours   Blockchain.Pdf      Liens  https://blockchainfrance.net https://www.bitaddress.org/ https://bitcoinfees.earn.com https://coincap.io/assets/bitcoin https://www.blockchain.com/explorer https://insight.bitpay.com    Intro Blockchain Rappels Crypto Blockchain Bitcoin Transactions Bitcoin  Votre navigateur ne permet pas l'intégration de vidéos, mais ce n'est pas grave ; vous pouvez la télécharger et la voir dans votre lecteur vidéo préféré !    Votre navigateur ne permet pas l'intégration de vidéos, mais ce n'est pas grave ; vous pouvez la télécharger et la voir dans votre lecteur vidéo préféré !    Votre navigateur ne permet pas l'intégration de vidéos, mais ce n'est pas grave ; vous pouvez la télécharger et la voir dans votre lecteur vidéo préféré !    Votre navigateur ne permet pas l'intégration de vidéos, mais ce n'est pas grave ; vous pouvez la télécharger et la voir dans votre lecteur vidéo préféré !    Votre navigateur ne permet pas l'intégration de vidéos, mais ce n'est pas grave ; vous pouvez la télécharger et la voir dans votre lecteur vidéo préféré !      "
+	"content": "Blockchain Cours   Blockchain      Liens  https://blockchainfrance.net https://www.bitaddress.org/ https://bitcoinfees.earn.com https://coincap.io/assets/bitcoin https://www.blockchain.com/explorer https://insight.bitpay.com    Intro Blockchain Rappels Crypto Blockchain Bitcoin Transactions Bitcoin  Votre navigateur ne permet pas l'intégration de vidéos, mais ce n'est pas grave ; vous pouvez la télécharger et la voir dans votre lecteur vidéo préféré !    Votre navigateur ne permet pas l'intégration de vidéos, mais ce n'est pas grave ; vous pouvez la télécharger et la voir dans votre lecteur vidéo préféré !    Votre navigateur ne permet pas l'intégration de vidéos, mais ce n'est pas grave ; vous pouvez la télécharger et la voir dans votre lecteur vidéo préféré !    Votre navigateur ne permet pas l'intégration de vidéos, mais ce n'est pas grave ; vous pouvez la télécharger et la voir dans votre lecteur vidéo préféré !    Votre navigateur ne permet pas l'intégration de vidéos, mais ce n'est pas grave ; vous pouvez la télécharger et la voir dans votre lecteur vidéo préféré !      "
 },
 {
 	"uri": "https://p-fb.net/GSM/",
@@ -158,7 +158,7 @@
 	"title": "Master 2/TMC",
 	"tags": [],
 	"description": "",
-	"content": "   Dans cette UE :   On parle de :\n matériel embarqué avec la programmation de modules; communication radio avec du LoRa; de sécurité matériel et des protocoles;    Support de cours   Iot tmc.pdf     Iot radio.pdf     Iot security.pdf      Fiches de TDs   TP 1      TP 2       Bilan de liaison  Votre navigateur ne permet pas l'intégration de vidéos, mais ce n'est pas grave ; vous pouvez la télécharger et la voir dans votre lecteur vidéo préféré !      Annales   Tmc examen 2020 2021.pdf     Tmc examen 2019 2020.pdf     Tmc examen 2018 2019      "
+	"content": "   Dans cette UE :   On parle de :\n matériel embarqué avec la programmation de modules; communication radio avec du LoRa; de sécurité matériel et des protocoles;    Support de cours   Iot tmc     Iot radio     Iot security      Fiches de TDs   Tp 1     Tp 2      Bilan de liaison  Votre navigateur ne permet pas l'intégration de vidéos, mais ce n'est pas grave ; vous pouvez la télécharger et la voir dans votre lecteur vidéo préféré !      Annales   Tmc examen 2020 2021     Tmc examen 2019 2020     Tmc examen 2018 2019      "
 },
 {
 	"uri": "https://p-fb.net/photos/",
@@ -172,14 +172,14 @@
 	"title": "Protocoles et Programmation Réseaux",
 	"tags": [],
 	"description": "",
-	"content": "Support de cours   Cours python.pdf     Cours ppres.pdf      Fiches de TDs   TD 1      TD 1 CORRECTIONS     TD 2      TD 2 CORRECTIONS     TD 3       Fiches de TPs   TP 1      TP 2       "
+	"content": "Support de cours   Python     Ppres      Fiches de TDs   Td 1     Td 1 corrections     Td 2     Td 2 corrections     Td 3      Fiches de TPs   Tp 1     Tp 2      "
 },
 {
 	"uri": "https://p-fb.net/master1/res_sys/",
 	"title": "Réseau et Système",
 	"tags": [],
 	"description": "",
-	"content": "Support de cours   Cours python.pdf     Cours res sys reseau.pdf     Cours res sys unix.pdf      Fiches de TDs   TD 1      TD 2       Fiches de TPs   TP 1      TP 1 CORRECTIONS      Annales   Sys res janvier 2021.pdf     Sys res janvier 2021 anglais.pdf     Sys res janvier 2020.pdf     Sys res janvier 2020 anglais.pdf      "
+	"content": "Support de cours   Python     Res sys reseau     Res sys unix      Fiches de TDs   Td 1     Td 2      Fiches de TPs   Tp 1     Tp 1 corrections      Annales   Sys res janvier 2021     Sys res janvier 2021 anglais     Sys res janvier 2020     Sys res janvier 2020 anglais      "
 },
 {
 	"uri": "https://p-fb.net/tags/shell/",
