@@ -7,6 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language><atom:link href="https://p-fb.net/tags/virtualisation/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Accès aux machines des salles de TPs</title>
+      <link>https://p-fb.net/blog/vpn_fac/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://p-fb.net/blog/vpn_fac/</guid>
+      <description>Comment accéder depuis l&amp;rsquo;extérieur aux machines de TPs sans rediriger toutes ses communications par le VPN de l&amp;rsquo;Université? Le VPN d&amp;rsquo;accès à l&amp;rsquo;Université est configuré à l&amp;rsquo;aide de fortivpn :
+ une fois connecté à l&amp;rsquo;Université, la route par défaut est redéfinie: l&amp;rsquo;ensemble de votre trafic réseau est détourné par le VPN. Ce qui représente un encombrement de la liaison vers lUniversité mais également un problème de respect de la vie privée ; pour limiter et choisir le trafic passant par le VPN on va avoir besoin d&amp;rsquo;une route_par défaut passant par le VPN uniquement pour les outils que l&amp;rsquo;on veut: connexion ssh, navigateur web par exemple.</description>
+    </item>
+    
+    <item>
       <title>Virtualbox, oui mais sans (prise de) tête !</title>
       <link>https://p-fb.net/blog/virtualbox_headless/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
