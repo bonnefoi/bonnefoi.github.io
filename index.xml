@@ -18,16 +18,6 @@ ssh -D 1080 p-fb    Analyse de paquets   tcpdump   Les options les plus pratique
     </item>
     
     <item>
-      <title>Administration Réseaux</title>
-      <link>https://p-fb.net/master1/admin_reseaux/</link>
-      <pubDate>Sun, 22 Aug 2021 23:52:12 +0000</pubDate>
-      
-      <guid>https://p-fb.net/master1/admin_reseaux/</guid>
-      <description> Vous trouverez l&amp;rsquo;ensemble des ressources
- ## Support de cours{.monbloc .green}   Res sys reseau     Res sys unix      ## Annales{.monbloc .blue}   Sys res janvier 2021     Sys res janvier 2021 anglais     Sys res janvier 2020     Sys res janvier 2020 anglais      </description>
-    </item>
-    
-    <item>
       <title>Développement GPGPU</title>
       <link>https://p-fb.net/master1/gpgpu/</link>
       <pubDate>Sun, 22 Aug 2021 23:52:12 +0000</pubDate>
@@ -53,6 +43,15 @@ ssh -D 1080 p-fb    Analyse de paquets   tcpdump   Les options les plus pratique
       <guid>https://p-fb.net/blog/vpn_fac/</guid>
       <description>Comment accéder depuis l&amp;rsquo;extérieur aux machines de TPs sans rediriger toutes ses communications par le VPN de l&amp;rsquo;Université? Le VPN d&amp;rsquo;accès à l&amp;rsquo;Université est configuré à l&amp;rsquo;aide de fortivpn :
  une fois connecté à l&amp;rsquo;Université, la route par défaut est redéfinie: l&amp;rsquo;ensemble de votre trafic réseau est détourné par le VPN. Ce qui représente un encombrement de la liaison vers lUniversité mais également un problème de respect de la vie privée ; pour limiter et choisir le trafic passant par le VPN on va avoir besoin d&amp;rsquo;une route_par défaut passant par le VPN uniquement pour les outils que l&amp;rsquo;on veut: connexion ssh, navigateur web par exemple.</description>
+    </item>
+    
+    <item>
+      <title>Administration Réseaux</title>
+      <link>https://p-fb.net/master1/admin_reseaux/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://p-fb.net/master1/admin_reseaux/</guid>
+      <description>Administration réseau - Firewall et QoS</description>
     </item>
     
     <item>
