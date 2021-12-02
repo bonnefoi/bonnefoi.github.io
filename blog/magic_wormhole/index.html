@@ -9,7 +9,7 @@
 
     <link rel="icon" href="/images/favicon.png" type="image/png">
 
-    <title>réseau :: Site pédagogique P-F. Bonnefoi</title>
+    <title>Comment transférer des fichiers à l&#39;Université ? :: Site pédagogique P-F. Bonnefoi</title>
 
     
     <link href="/css/nucleus.css?1638442376" rel="stylesheet">
@@ -40,7 +40,7 @@
     </style>
     
   </head>
-  <body class="" data-url="/tags/r%C3%A9seau/">
+  <body class="" data-url="/blog/magic_wormhole/">
     <nav id="sidebar" class="">
 
 
@@ -769,6 +769,8 @@
                         </a>
                     </span>
                   
+                  <span id="toc-menu"><i class="fas fa-list-alt"></i></span>
+                  
                   <span class="links">
                  
                  
@@ -783,7 +785,7 @@
             
           
           
-            <a href='/'></a> > <a href='/tags/'>Tags</a> > réseau
+            <a href='/'></a> > <a href='/blog/'>Blog</a> > Comment transférer des fichiers à l'Université ?
           
         
           
@@ -794,48 +796,97 @@
                   </span>
                 </div>
                 
+                    <div class="progress">
+    <div class="wrapper">
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#comment-pouvoir-transférer-des-fichiers-entre-les-machines-de-luniversité-son-téléphone-et-son-portable-">Comment pouvoir transférer des fichiers entre les machines de l&rsquo;Université, son téléphone et son portable ?</a></li>
+        <li><a href="#exemple">Exemple</a></li>
+        <li><a href="#pour-le-transfert-de-plusieurs-fichiers-">Pour le transfert de plusieurs fichiers ?</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+    </div>
+</div>
+
+                
               </div>
             </div>
             
         <div id="head-tags">
         
+<div class="tags">
+
+  <a class="tag-link" href="/tags/lifestyle">lifestyle</a>
+
+  <a class="tag-link" href="/tags/r%C3%A9seau">réseau</a>
+
+</div>
+
         </div>
         
         <div id="body-inner">
           
             <h1>
               
-              
+              Comment transférer des fichiers à l&#39;Université ? 
               
             </h1>
           
 
         
 
+<h3 id="comment-pouvoir-transférer-des-fichiers-entre-les-machines-de-luniversité-son-téléphone-et-son-portable-">Comment pouvoir transférer des fichiers entre les machines de l&rsquo;Université, son téléphone et son portable ?</h3>
+<p>L&rsquo;outil présenté ici est <a href="https://github.com/magic-wormhole/magic-wormhole">magic-wormhole</a>. C&rsquo;est un outil de <strong>transfert de fichier sécurisé</strong> (les échanges sont authentifiés et chiffrés) qui fonctionne dans <strong>toutes</strong> les situations.</p>
+<p>Il est disponible sur tous les OS (il est écrit en Python) et existe également sur <a href="https://f-droid.org/en/packages/com.pavelsof.wormhole/">Android</a>.</p>
+<p><em>Lorsque vous êtes sur votre téléphone ou votre ordinateur portable vous serez <strong>isolé</strong> du réseau des machines des salles de TP, même si vous êtes connecté au réseau WiFi de l&rsquo;Université : vous ne pourrez pas joindre une machine de la salle de TP.</em></p>
+<p><em>Vous pourriez faire l&rsquo;inverse : essayer de joindre votre machine depuis une machine de la salle de TP, mais là vous aurez un problème pour trouver comment joindre votre machine : trouver son adresse IP, installer un service de transfert de fichier etc</em></p>
+<p><strong>La solution ? Un système de rendez-vous sécurisé !</strong></p>
+<p>Le <strong>fonctionnement</strong> :</p>
+<ul>
+<li>vous êtes <strong>connecté à Internet</strong> sur votre machine :
+<ul>
+<li>vous <em>avez le droit d&rsquo;aller sur Internet</em> pour contacter une autre machine également connectée sur Internet;</li>
+<li>vous <em>n&rsquo;avez pas le droit d&rsquo;être contacté</em> : soit pour des raisons de sécurité (machines des salles de TP) ou à cause des difficultés pour vous joindre (vous localiser et avoir un service de transfert de fichier installé) ;</li>
+</ul>
+</li>
+<li>vous allez utiliser un <strong>tiers</strong> pour établir un <strong>rendez-vous</strong> :
+<ul>
+<li>la machine qui envoie le fichier va se <strong>connecter à ce serveur tiers</strong> (c&rsquo;est autorisé puisque vous allez <em>vers</em> Internet);</li>
+<li>un <strong>code éphémère</strong> vous est donné pour l&rsquo;authentification et le chiffrement : il est simple à saisir, ce qui évite les erreurs;</li>
+<li>la machine qui reçoit utilise ce code pour se <strong>connecter également au serveur tiers</strong> et rejoindre le <strong>rendez-vous</strong>;</li>
+<li>le <strong>transfert du fichier a lieu !</strong></li>
+</ul>
+</li>
+</ul>
+<h3 id="exemple">Exemple</h3>
+<p>Je suis sur une <strong>machine de la salle de TP</strong> et je veux envoyer un fichier source vers mon ordinateur portable:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ wormhole send mon_source.c
+Sending 747.1 kB file named <span style="color:#e6db74">&#39;mon_source.c&#39;</span>
+Wormhole code is: 9-phonetic-scenic
+On the other computer, please run:
 
-
-
-
-<h3> Liste des pages pour le tag réseau </h3>
-<div class="tag-list">
-<table style="border:none">
-    
-    <td style="width:8em;text-align:right">03/10/2021</td><td>&nbsp; <i class="fas fa-file"></i> <a href="/blog/outils/">Liste d&#39;outils à utiliser</a></td></tr>
-    
-    <td style="width:8em;text-align:right">26/10/2021</td><td>&nbsp; <i class="fas fa-file"></i> <a href="/blog/vpn_fac/">Accès aux machines des salles de TPs</a></td></tr>
-    
-    <td style="width:8em;text-align:right">02/12/2021</td><td>&nbsp; <i class="fas fa-file"></i> <a href="/blog/magic_wormhole/">Comment transférer des fichiers à l&#39;Université ?</a></td></tr>
-    
-    <td style="width:8em;text-align:right">03/10/2021</td><td>&nbsp; <i class="fas fa-file"></i> <a href="/blog/virtualbox_headless/">Virtualbox, oui mais sans (prise de) tête !</a></td></tr>
-    
-</table>
-</div>
+wormhole receive 9-phonetic-scenic
+</code></pre></div><p>Sur <strong>mon ordinateur portable</strong>, je peux alors entrer la commande :</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ wormhole receive 9-phonetic-scenic
+Receiving file <span style="color:#f92672">(</span>747.1 kB<span style="color:#f92672">)</span> into: mon_source.c
+ok? <span style="color:#f92672">(</span>Y/n<span style="color:#f92672">)</span>: y
+Receiving <span style="color:#f92672">(</span>-&gt;tcp:169.254.58.14:51776<span style="color:#f92672">)</span>..
+100%|███████████████████████████████████████████████████████████████████████████████████████████████| 747k/747k <span style="color:#f92672">[</span>00:00&lt;00:00, 5.36MB/s<span style="color:#f92672">]</span>
+Received file written to mon_source.c
+</code></pre></div><h3 id="pour-le-transfert-de-plusieurs-fichiers-">Pour le transfert de plusieurs fichiers ?</h3>
+<p>Vous pouvez créer une archive et transmettre l&rsquo;archive&hellip;</p>
 
 
 <footer class=" footline" >
-    
+	
+    <div style="position:absolute;bottom:0;font-size:90%">
+    <i class='fas fa-calendar'></i> <em> Dernière modification: 02/12/2021</em>
+    </div>
 </footer>
-
         
         </div>
         

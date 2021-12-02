@@ -123,7 +123,7 @@
 	"title": "Blog",
 	"tags": [],
 	"description": "",
-	"content": "Vous trouverez des remarques et documentations en marge du contenu pédagogique du site.\nLes derniers billets  03/10/2021\n\u0026nbsp;Liste d\u0026#39;outils à utiliser\n\u0026nbsp;réseau\u0026nbsp;\u0026nbsp;linux\u0026nbsp;\n 03/10/2021\n\u0026nbsp;Virtualbox, oui mais sans (prise de) tête !\n\u0026nbsp;virtualisation\u0026nbsp;\u0026nbsp;réseau\u0026nbsp;\n 04/10/2021\n\u0026nbsp;Ma configuration/outils du quotidien\n\u0026nbsp;shell\u0026nbsp;\u0026nbsp;lifestyle\u0026nbsp;\n 26/10/2021\n\u0026nbsp;Accès aux machines des salles de TPs\n\u0026nbsp;Virtualisation\u0026nbsp;\u0026nbsp;réseau\u0026nbsp;\n  "
+	"content": "Vous trouverez des remarques et documentations en marge du contenu pédagogique du site.\nLes derniers billets  03/10/2021\n\u0026nbsp;Liste d\u0026#39;outils à utiliser\n\u0026nbsp;réseau\u0026nbsp;\u0026nbsp;linux\u0026nbsp;\n 03/10/2021\n\u0026nbsp;Virtualbox, oui mais sans (prise de) tête !\n\u0026nbsp;virtualisation\u0026nbsp;\u0026nbsp;réseau\u0026nbsp;\n 04/10/2021\n\u0026nbsp;Ma configuration/outils du quotidien\n\u0026nbsp;shell\u0026nbsp;\u0026nbsp;lifestyle\u0026nbsp;\n 02/12/2021\n\u0026nbsp;Comment transférer des fichiers à l\u0026#39;Université ?\n\u0026nbsp;lifestyle\u0026nbsp;\u0026nbsp;réseau\u0026nbsp;\n 26/10/2021\n\u0026nbsp;Accès aux machines des salles de TPs\n\u0026nbsp;Virtualisation\u0026nbsp;\u0026nbsp;réseau\u0026nbsp;\n  "
 },
 {
 	"uri": "https://p-fb.net/categories/",
@@ -131,6 +131,13 @@
 	"tags": [],
 	"description": "",
 	"content": ""
+},
+{
+	"uri": "https://p-fb.net/blog/magic_wormhole/",
+	"title": "Comment transférer des fichiers à l&#39;Université ?",
+	"tags": ["lifestyle", "réseau"],
+	"description": "",
+	"content": "Comment pouvoir transférer des fichiers entre les machines de l\u0026rsquo;Université, son téléphone et son portable ? L\u0026rsquo;outil présenté ici est magic-wormhole. C\u0026rsquo;est un outil de transfert de fichier sécurisé (les échanges sont authentifiés et chiffrés) qui fonctionne dans toutes les situations.\nIl est disponible sur tous les OS (il est écrit en Python) et existe également sur Android.\nLorsque vous êtes sur votre téléphone ou votre ordinateur portable vous serez isolé du réseau des machines des salles de TP, même si vous êtes connecté au réseau WiFi de l\u0026rsquo;Université : vous ne pourrez pas joindre une machine de la salle de TP.\nVous pourriez faire l\u0026rsquo;inverse : essayer de joindre votre machine depuis une machine de la salle de TP, mais là vous aurez un problème pour trouver comment joindre votre machine : trouver son adresse IP, installer un service de transfert de fichier etc\nLa solution ? Un système de rendez-vous sécurisé !\nLe fonctionnement :\n vous êtes connecté à Internet sur votre machine :  vous avez le droit d\u0026rsquo;aller sur Internet pour contacter une autre machine également connectée sur Internet; vous n\u0026rsquo;avez pas le droit d\u0026rsquo;être contacté : soit pour des raisons de sécurité (machines des salles de TP) ou à cause des difficultés pour vous joindre (vous localiser et avoir un service de transfert de fichier installé) ;   vous allez utiliser un tiers pour établir un rendez-vous :  la machine qui envoie le fichier va se connecter à ce serveur tiers (c\u0026rsquo;est autorisé puisque vous allez vers Internet); un code éphémère vous est donné pour l\u0026rsquo;authentification et le chiffrement : il est simple à saisir, ce qui évite les erreurs; la machine qui reçoit utilise ce code pour se connecter également au serveur tiers et rejoindre le rendez-vous; le transfert du fichier a lieu !    Exemple Je suis sur une machine de la salle de TP et je veux envoyer un fichier source vers mon ordinateur portable:\n$ wormhole send mon_source.c Sending 747.1 kB file named \u0026#39;mon_source.c\u0026#39; Wormhole code is: 9-phonetic-scenic On the other computer, please run: wormhole receive 9-phonetic-scenic Sur mon ordinateur portable, je peux alors entrer la commande :\n$ wormhole receive 9-phonetic-scenic Receiving file (747.1 kB) into: mon_source.c ok? (Y/n): y Receiving (-\u0026gt;tcp:169.254.58.14:51776).. 100%|███████████████████████████████████████████████████████████████████████████████████████████████| 747k/747k [00:00\u0026lt;00:00, 5.36MB/s] Received file written to mon_source.c Pour le transfert de plusieurs fichiers ? Vous pouvez créer une archive et transmettre l\u0026rsquo;archive\u0026hellip;\n"
 },
 {
 	"uri": "https://p-fb.net/IAE/L3gestion/",

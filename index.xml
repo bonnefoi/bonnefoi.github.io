@@ -64,6 +64,17 @@ ssh -D 1080 p-fb    Analyse de paquets   tcpdump   Les options les plus pratique
     </item>
     
     <item>
+      <title>Comment transférer des fichiers à l&#39;Université ?</title>
+      <link>https://p-fb.net/blog/magic_wormhole/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://p-fb.net/blog/magic_wormhole/</guid>
+      <description>Comment pouvoir transférer des fichiers entre les machines de l&amp;rsquo;Université, son téléphone et son portable ? L&amp;rsquo;outil présenté ici est magic-wormhole. C&amp;rsquo;est un outil de transfert de fichier sécurisé (les échanges sont authentifiés et chiffrés) qui fonctionne dans toutes les situations.
+Il est disponible sur tous les OS (il est écrit en Python) et existe également sur Android.
+Lorsque vous êtes sur votre téléphone ou votre ordinateur portable vous serez isolé du réseau des machines des salles de TP, même si vous êtes connecté au réseau WiFi de l&amp;rsquo;Université : vous ne pourrez pas joindre une machine de la salle de TP.</description>
+    </item>
+    
+    <item>
       <title>Cultures Numériques</title>
       <link>https://p-fb.net/IAE/L3gestion/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
