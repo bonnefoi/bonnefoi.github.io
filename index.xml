@@ -94,6 +94,15 @@ Lorsque vous êtes sur votre téléphone ou votre ordinateur portable vous serez
     </item>
     
     <item>
+      <title>Infrastructure Réseaux</title>
+      <link>https://p-fb.net/master1/infrares/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://p-fb.net/master1/infrares/</guid>
+      <description>Routage IGP/EGP, Policy Routing et Tunnels</description>
+    </item>
+    
+    <item>
       <title>Protocoles et Programmation Réseaux</title>
       <link>https://p-fb.net/master1/proto_prog/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -109,6 +118,15 @@ Lorsque vous êtes sur votre téléphone ou votre ordinateur portable vous serez
       
       <guid>https://p-fb.net/master1/res_sys/</guid>
       <description>Système Unix/Programmation Python et Réseaux</description>
+    </item>
+    
+    <item>
+      <title>Sécurité des Usages TIC</title>
+      <link>https://p-fb.net/master1/secutic/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://p-fb.net/master1/secutic/</guid>
+      <description>Application de la crytptographie aux protocoles</description>
     </item>
     
     <item>
