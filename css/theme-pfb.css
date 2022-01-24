@@ -35,6 +35,11 @@ h2.monbloc.green::before {
   font-weight: 900;
   content: var(--fa,'\f5da  ');
 }
+h2.monbloc.red::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: var(--fa,'\f1c1  ');
+}
 h2.monbloc.orange::before {
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
