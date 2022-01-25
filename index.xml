@@ -18,15 +18,6 @@ ssh -D 1080 p-fb    Analyse de paquets   tcpdump   Les options les plus pratique
     </item>
     
     <item>
-      <title>Développement GPGPU</title>
-      <link>https://p-fb.net/master1/gpgpu/</link>
-      <pubDate>Sun, 22 Aug 2021 23:52:12 +0000</pubDate>
-      
-      <guid>https://p-fb.net/master1/gpgpu/</guid>
-      <description>Programmation Parallèle avec CUDA</description>
-    </item>
-    
-    <item>
       <title>CompilationII</title>
       <link>https://p-fb.net/licence3/compilation2/</link>
       <pubDate>Wed, 18 Aug 2021 22:42:00 +0200</pubDate>
@@ -52,6 +43,15 @@ ssh -D 1080 p-fb    Analyse de paquets   tcpdump   Les options les plus pratique
       
       <guid>https://p-fb.net/master1/admin_reseaux/</guid>
       <description>Administration réseau - Firewall et QoS</description>
+    </item>
+    
+    <item>
+      <title>Audit &amp; Sécurité Réseaux</title>
+      <link>https://p-fb.net/master1/audit_secures/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://p-fb.net/master1/audit_secures/</guid>
+      <description>Audit et Sécurité Réseaux - Scapy &amp;amp; IPv6</description>
     </item>
     
     <item>
@@ -81,6 +81,15 @@ Lorsque vous êtes sur votre téléphone ou votre ordinateur portable vous serez
       
       <guid>https://p-fb.net/IAE/L3gestion/</guid>
       <description>Présentation de la blockchain et application à Bitcoin</description>
+    </item>
+    
+    <item>
+      <title>Développement GPGPU</title>
+      <link>https://p-fb.net/master1/gpgpu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://p-fb.net/master1/gpgpu/</guid>
+      <description>Programmation Parallèle avec CUDA</description>
     </item>
     
     <item>

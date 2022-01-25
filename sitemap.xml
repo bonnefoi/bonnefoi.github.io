@@ -32,9 +32,6 @@
     <loc>https://p-fb.net/tags/</loc>
     <lastmod>2021-12-02T12:04:48+01:00</lastmod>
   </url><url>
-    <loc>https://p-fb.net/master1/gpgpu/</loc>
-    <lastmod>2022-01-24T22:53:54+01:00</lastmod>
-  </url><url>
     <loc>https://p-fb.net/licence3/compilation2/</loc>
     <lastmod>2022-01-17T15:49:11+01:00</lastmod>
   </url><url>
@@ -50,6 +47,9 @@
     <loc>https://p-fb.net/master1/admin_reseaux/</loc>
     <lastmod>2021-12-22T20:48:17+01:00</lastmod>
   </url><url>
+    <loc>https://p-fb.net/master1/audit_secures/</loc>
+    <lastmod>2022-01-25T13:40:43+01:00</lastmod>
+  </url><url>
     <loc>https://p-fb.net/IAE/MCCA2/</loc>
     <lastmod>2021-10-03T01:05:29+02:00</lastmod>
   </url><url>
@@ -63,6 +63,9 @@
   </url><url>
     <loc>https://p-fb.net/IAE/L3gestion/</loc>
     <lastmod>2021-10-03T01:05:29+02:00</lastmod>
+  </url><url>
+    <loc>https://p-fb.net/master1/gpgpu/</loc>
+    <lastmod>2022-01-25T13:40:43+01:00</lastmod>
   </url><url>
     <loc>https://p-fb.net/GSM/</loc>
     <lastmod>2021-10-03T01:05:29+02:00</lastmod>
