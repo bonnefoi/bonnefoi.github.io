@@ -25,7 +25,7 @@
 	"title": "Licence 3",
 	"tags": [],
 	"description": "",
-	"content": "Premier semestre   ParalellismeI \n Programmation concurrente/Programmation asynchrone\n info\n   Second semestre   CompilationII \n Utilisation de Lex \u0026amp; Yacc/Utilisation d\u0026#39;XML\n info\n   "
+	"content": "Premier semestre   ParalellismeI \n Programmation concurrente/Programmation asynchrone\n info\n   Second semestre   CompilationII \n Utilisation de Lex \u0026amp; Yacc/Utilisation d\u0026#39;XML\n info\n    Système d\u0026#39;Exploitation \n Processur, mémoire et ordonnancement\n info\n   "
 },
 {
 	"uri": "https://p-fb.net/master1/",
@@ -77,18 +77,11 @@
 	"content": "Cours   Compilation2      Fiches de TDs   Td 1      Annales   Compilation 2 mai 2021     Compilation 2 mai 2019     Compilation 2 mai 2018      "
 },
 {
-	"uri": "https://p-fb.net/licence3/parallelisme1/",
-	"title": "ParalellismeI",
-	"tags": [],
-	"description": "",
-	"content": "Cours   Parallelisme i      Fiches de TDs   Td 1     Td 1 corrections     Td 2     Td 3      Fiches de TPs   Tp 1     Tp 2      Annales   Parallelisme i decembre 2020     Parallelisme i decembre 2019     Parallelisme i decembre 2018      "
-},
-{
 	"uri": "https://p-fb.net/",
 	"title": "",
 	"tags": [],
 	"description": "",
-	"content": " Site pédagogique de P-F. Bonnefoi à propos Bonne foi Logo ?   La récompense d\u0026rsquo;un enseignant est la réussite de ses étudiants.   Bienvenue sur mon site où vous trouverez mes supports de cours, TD et TP.\nL\u0026rsquo;adresse est p-fb.net, ce qui correspond uniquement à mes initiales.\nL\u0026rsquo;ancienne adresse était libpfb.so, c-à-d la bibliothèque partagée de P-F. B («.so», \u0026ldquo;shared object\u0026quot;).\nL\u0026rsquo;adresse originale du site était ishtar.msi.unilim.fr.\nDes statistiques \u0026ldquo;Google Analytics\u0026rdquo; d\u0026rsquo;accès au site sont disponibles sur cette page.\nL\u0026rsquo;adresse pour m\u0026rsquo;écrire est bonnefoi@unilim.fr\n linkedin/pfbonnefoi\n mastodon/@pefclic\n  Magritte   Une œuvre d\u0026rsquo;un artiste que j\u0026rsquo;apprécie beaucoup: La bonne foi (1964-1965)\n    Le logo est une création d\u0026rsquo;Andrew Cameron pour le Noun Project.\nIl évoque la sécurité avec le \u0026ldquo;black hat\u0026rdquo;, fait référence à Magritte, et en plus, correspond à ma signature :\nMrs. Peel, we\u0026rsquo;re needed\u0026hellip; The Avengers\n        25/01/2022 Développement GPGPU    25/01/2022 Audit \u0026amp; Sécurité Réseaux    24/01/2022 Sécurité des Usages TIC     Suite à un problème technique survenu sur le serveur hébergeant le site, les vidéos des cours ne sont plus présentes sur la version actuelle du site. Cette version est une version de secours directement hébergée sur le serveur Github. Lorsque le serveur sera de nouveau en état opérationnel, les vidéos seront de nouveau disponibles.\n "
+	"content": " Site pédagogique de P-F. Bonnefoi à propos Bonne foi Logo ?   La récompense d\u0026rsquo;un enseignant est la réussite de ses étudiants.   Bienvenue sur mon site où vous trouverez mes supports de cours, TD et TP.\nL\u0026rsquo;adresse est p-fb.net, ce qui correspond uniquement à mes initiales.\nL\u0026rsquo;ancienne adresse était libpfb.so, c-à-d la bibliothèque partagée de P-F. B («.so», \u0026ldquo;shared object\u0026quot;).\nL\u0026rsquo;adresse originale du site était ishtar.msi.unilim.fr.\nDes statistiques \u0026ldquo;Google Analytics\u0026rdquo; d\u0026rsquo;accès au site sont disponibles sur cette page.\nL\u0026rsquo;adresse pour m\u0026rsquo;écrire est bonnefoi@unilim.fr\n linkedin/pfbonnefoi\n mastodon/@pefclic\n  Magritte   Une œuvre d\u0026rsquo;un artiste que j\u0026rsquo;apprécie beaucoup: La bonne foi (1964-1965)\n    Le logo est une création d\u0026rsquo;Andrew Cameron pour le Noun Project.\nIl évoque la sécurité avec le \u0026ldquo;black hat\u0026rdquo;, fait référence à Magritte, et en plus, correspond à ma signature :\nMrs. Peel, we\u0026rsquo;re needed\u0026hellip; The Avengers\n        25/01/2022 Sécurité des Usages TIC    25/01/2022 Système d\u0026#39;Exploitation    25/01/2022 ParalellismeI     Suite à un problème technique survenu sur le serveur hébergeant le site, les vidéos des cours ne sont plus présentes sur la version actuelle du site. Cette version est une version de secours directement hébergée sur le serveur Github. Lorsque le serveur sera de nouveau en état opérationnel, les vidéos seront de nouveau disponibles.\n "
 },
 {
 	"uri": "https://p-fb.net/blog/vpn_fac/",
@@ -189,6 +182,13 @@
 	"content": "   Dans cette UE :   On parle de :\n matériel embarqué avec la programmation de modules; communication radio avec du LoRa; de sécurité matériel et des protocoles;    Support de cours   Iot tmc     Iot radio     Iot security      Fiches de TDs   Tp 1     Tp 2     Tp 3     Tp 4     Raspberry pi bootp nfs     Projet tmc 2021 2022      Bilan de liaison  Votre navigateur ne permet pas l'intégration de vidéos, mais ce n'est pas grave ; vous pouvez la télécharger et la voir dans votre lecteur vidéo préféré !      Annales   Tmc examen 2020 2021     Tmc examen 2019 2020     Tmc examen 2018 2019      "
 },
 {
+	"uri": "https://p-fb.net/licence3/parallelisme1/",
+	"title": "ParalellismeI",
+	"tags": [],
+	"description": "",
+	"content": "Cours   Parallelisme i      Fiches de TDs   Td 1     Td 1 corrections     Td 2     Td 3      Fiches de TPs   Tp 1     Tp 2      Annales   Parallelisme i decembre 2020     Parallelisme i decembre 2019     Parallelisme i decembre 2018      "
+},
+{
 	"uri": "https://p-fb.net/photos/",
 	"title": "Photos",
 	"tags": [],
@@ -217,6 +217,13 @@
 	"content": ""
 },
 {
+	"uri": "https://p-fb.net/licence3/sysex/",
+	"title": "Système d&#39;Exploitation",
+	"tags": [],
+	"description": "",
+	"content": "Cours              "
+},
+{
 	"uri": "https://p-fb.net/master1/secutic/",
 	"title": "Sécurité des Usages TIC",
 	"tags": [],
@@ -229,13 +236,6 @@
 	"tags": [],
 	"description": "",
 	"content": "Cours OS Embarqué -\u0026gt;p.17 -\u0026gt;p.33 -\u0026gt;fin  Votre navigateur ne permet pas l'intégration de vidéos, mais ce n'est pas grave ; vous pouvez la télécharger et la voir dans votre lecteur vidéo préféré !    Votre navigateur ne permet pas l'intégration de vidéos, mais ce n'est pas grave ; vous pouvez la télécharger et la voir dans votre lecteur vidéo préféré !    Votre navigateur ne permet pas l'intégration de vidéos, mais ce n'est pas grave ; vous pouvez la télécharger et la voir dans votre lecteur vidéo préféré !      Cours RnF -\u0026gt;p.48 -\u0026gt;fin  Votre navigateur ne permet pas l'intégration de vidéos, mais ce n'est pas grave ; vous pouvez la télécharger et la voir dans votre lecteur vidéo préféré !    Votre navigateur ne permet pas l'intégration de vidéos, mais ce n'est pas grave ; vous pouvez la télécharger et la voir dans votre lecteur vidéo préféré !      TDs TD nº1 TD nº2 TD nº3 TD nº4 TD nº5 TD nº6  Votre navigateur ne permet pas l'intégration de vidéos, mais ce n'est pas grave ; vous pouvez la télécharger et la voir dans votre lecteur vidéo préféré !    Votre navigateur ne permet pas l'intégration de vidéos, mais ce n'est pas grave ; vous pouvez la télécharger et la voir dans votre lecteur vidéo préféré !    Votre navigateur ne permet pas l'intégration de vidéos, mais ce n'est pas grave ; vous pouvez la télécharger et la voir dans votre lecteur vidéo préféré !    Votre navigateur ne permet pas l'intégration de vidéos, mais ce n'est pas grave ; vous pouvez la télécharger et la voir dans votre lecteur vidéo préféré !    Votre navigateur ne permet pas l'intégration de vidéos, mais ce n'est pas grave ; vous pouvez la télécharger et la voir dans votre lecteur vidéo préféré !    Votre navigateur ne permet pas l'intégration de vidéos, mais ce n'est pas grave ; vous pouvez la télécharger et la voir dans votre lecteur vidéo préféré !      "
-},
-{
-	"uri": "https://p-fb.net/licence3/parallelisme1/videos/",
-	"title": "vidéos",
-	"tags": [],
-	"description": "",
-	"content": " -\u0026gt; p.120 -\u0026gt; fin  Votre navigateur ne permet pas l'intégration de vidéos, mais ce n'est pas grave ; vous pouvez la télécharger et la voir dans votre lecteur vidéo préféré !    Votre navigateur ne permet pas l'intégration de vidéos, mais ce n'est pas grave ; vous pouvez la télécharger et la voir dans votre lecteur vidéo préféré !      "
 },
 {
 	"uri": "https://p-fb.net/blog/virtualbox_headless/",

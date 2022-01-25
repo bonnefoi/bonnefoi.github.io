@@ -1,0 +1,9 @@
+---
+Title: "vidéos"
+fa: "fas fa-film"
+---
+
+{{<listVideos controls="true">}}
+/fileadmin/ParallelismeI/2020_2021/cours_para_1|-> p.120
+/fileadmin/ParallelismeI/2020_2021/cours_para_2|-> fin
+{{</listVideos>}}
