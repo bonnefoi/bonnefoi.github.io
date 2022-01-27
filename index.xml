@@ -46,7 +46,7 @@ ssh -D 1080 p-fb    Analyse de paquets   tcpdump   Les options les plus pratique
     </item>
     
     <item>
-      <title>Audit &amp; Sécurité Réseaux</title>
+      <title>Audit et Sécurité Réseaux</title>
       <link>https://p-fb.net/master1/audit_secures/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -109,6 +109,15 @@ Lorsque vous êtes sur votre téléphone ou votre ordinateur portable vous serez
       
       <guid>https://p-fb.net/master1/infrares/</guid>
       <description>Routage IGP/EGP, Policy Routing et Tunnels</description>
+    </item>
+    
+    <item>
+      <title>Parallélisme et Application</title>
+      <link>https://p-fb.net/master1/parapp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://p-fb.net/master1/parapp/</guid>
+      <description>OpenMP &amp;amp; MPI</description>
     </item>
     
     <item>
